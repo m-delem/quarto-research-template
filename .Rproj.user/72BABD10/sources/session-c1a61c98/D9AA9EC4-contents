@@ -1,0 +1,46 @@
+project:
+  type: default
+  
+author: 
+  - name: Maël Delem
+    orcid: 0009-0005-8518-1991
+    email: mael.delem@univ-lyon2.fr
+    url: https://scholar.google.com/citations?user=Oiv7mtQAAAAJ&hl=fr&oi=ao
+date-format: "D/MM/YYYY"
+date-modified: last-modified
+
+# format specific options
+format:
+  # ─── HTML ───
+  html:
+    # self-contained HTML render
+    embed-resources: true
+    theme: 
+      dark: darkly
+      light: flatly
+    # Montserrat font and options
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    mainfont: Montserrat
+    fontsize: "medium"
+    # clickable figures
+    lightbox: true
+    code-fold: false
+    code-annotations: hover
+
+  # ─── Word ───
+  docx: 
+    echo: false
+  
+  # ─── PDF ───
+  # see https://github.com/quarto-journals/elsevier
+  elsevier-pdf:
+    journal:
+      cite-style: authoryear
+    include-in-header:
+      text: |
+        \newpageafter{abstract}
+
+bibliography: ["references/references.bib", "references/packages.bib"]

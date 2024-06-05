@@ -1,0 +1,4349 @@
+{
+    "sources": [
+        {
+            "URL": "https://ambient.data-imaginist.com",
+            "author": [
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                },
+                {
+                    "family": "Peck",
+                    "given": "Jordan"
+                }
+            ],
+            "id": "R-ambient",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.2, https://github.com/thomasp85/ambient",
+            "title": "Ambient: A generator of multidimensional noise",
+            "title-short": "Ambient",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1016/j.cub.2017.09.031",
+            "ISSN": "0960-9822",
+            "abstract": "An emerging view suggests that spatial position is an integral component of working memory (WM), such that non-spatial features are bound to locations regardless of whether space is relevant [1, 2]. For instance, past work has shown that stimulus position is spontaneously remembered when non-spatial features are stored. Item recognition is enhanced when memoranda appear at the same location where they were encoded [3, 4, 5], and accessing non-spatial information elicits shifts of spatial attention to the original position of the stimulus [6, 7]. However, these findings do not establish that a persistent, active representation of stimulus position is maintained in WM because similar effects have also been documented following storage in long-term memory [8, 9]. Here we show that the spatial position of the memorandum is actively coded by persistent neural activity during a non-spatial WM task. We used a spatial encoding model in conjunction with electroencephalogram (EEG) measurements of oscillatory alpha-band (8–12 Hz) activity to track active representations of spatial position. The position of the stimulus varied trial to trial but was wholly irrelevant to the tasks. We nevertheless observed active neural representations of the original stimulus position that persisted throughout the retention interval. Further experiments established that these spatial representations are dependent on the volitional storage of non-spatial features rather than being a lingering effect of sensory energy or initial encoding demands. These findings provide strong evidence that online spatial representations are spontaneously maintained in WM—regardless of task relevance—during the storage of non-spatial features.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        12
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Foster",
+                    "given": "Joshua J."
+                },
+                {
+                    "family": "Bsales",
+                    "given": "Emma M."
+                },
+                {
+                    "family": "Jaffe",
+                    "given": "Russell J."
+                },
+                {
+                    "family": "Awh",
+                    "given": "Edward"
+                }
+            ],
+            "container-title": "Current Biology",
+            "id": "fosterAlphaBandActivityReveals2017",
+            "issue": "20",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        10
+                    ]
+                ]
+            },
+            "keyword": "alpha,delay activity,inverted encoding model,location,oscillations,position,space,working memory",
+            "page": "3216-3223.e6",
+            "title": "Alpha-Band Activity Reveals Spontaneous Representations of Spatial Position in Visual Working Memory",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "URL": "https://ambient.data-imaginist.com",
+            "author": [
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                },
+                {
+                    "family": "Peck",
+                    "given": "Jordan"
+                }
+            ],
+            "id": "R-ambient",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.2, https://github.com/thomasp85/ambient",
+            "title": "Ambient: A generator of multidimensional noise",
+            "title-short": "Ambient",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.R-project.org/",
+            "author": [
+                {
+                    "literal": "R Core Team"
+                }
+            ],
+            "id": "R-base",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "R Foundation for Statistical Computing",
+            "publisher-place": "Vienna, Austria",
+            "title": "R: A language and environment for statistical computing",
+            "title-short": "R",
+            "type": "book"
+        },
+        {
+            "URL": "https://richarddmorey.github.io/BayesFactor/",
+            "author": [
+                {
+                    "family": "Morey",
+                    "given": "Richard D."
+                },
+                {
+                    "family": "Rouder",
+                    "given": "Jeffrey N."
+                }
+            ],
+            "id": "R-BayesFactor",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.9.12-4.7",
+            "title": "BayesFactor: Computation of bayes factors for common designs",
+            "title-short": "BayesFactor",
+            "type": "book"
+        },
+        {
+            "URL": "https://hsbadr.github.io/bayesian/",
+            "author": [
+                {
+                    "family": "Badr",
+                    "given": "Hamada S."
+                },
+                {
+                    "family": "Bürkner",
+                    "given": "Paul-Christian"
+                }
+            ],
+            "id": "R-bayesian",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.1, https://github.com/hsbadr/bayesian",
+            "title": "Bayesian: Bindings for bayesian TidyModels",
+            "title-short": "Bayesian",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/bayestestR/",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Wilson",
+                    "given": "Michael D."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                }
+            ],
+            "id": "R-bayestestR",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.13.2",
+            "title": "bayestestR: Understand and describe bayesian models and posterior distributions",
+            "title-short": "bayestestR",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/paul-buerkner/brms",
+            "author": [
+                {
+                    "family": "Bürkner",
+                    "given": "Paul-Christian"
+                }
+            ],
+            "id": "R-brms",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 2.21.0, https://discourse.mc-stan.org/",
+            "title": "Brms: Bayesian regression models using stan",
+            "title-short": "Brms",
+            "type": "book"
+        },
+        {
+            "URL": "https://broom.tidymodels.org/",
+            "author": [
+                {
+                    "family": "Robinson",
+                    "given": "David"
+                },
+                {
+                    "family": "Hayes",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Couch",
+                    "given": "Simon"
+                }
+            ],
+            "id": "R-broom",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.5",
+            "title": "Broom: Convert statistical objects into tidy tibbles",
+            "title-short": "Broom",
+            "type": "book"
+        },
+        {
+            "URL": "https://svn.r-project.org/R-packages/trunk/cluster/",
+            "author": [
+                {
+                    "family": "Maechler",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Rousseeuw",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Struyf",
+                    "given": "Anja"
+                },
+                {
+                    "family": "Hubert",
+                    "given": "Mia"
+                }
+            ],
+            "id": "R-cluster",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 2.1.6",
+            "title": "Cluster: \"Finding groups in data\": Cluster analysis extended rousseeuw et al.",
+            "title-short": "Cluster",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/correlation/",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                }
+            ],
+            "id": "R-correlation",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.8.4",
+            "title": "Correlation: Methods for correlation analysis",
+            "title-short": "Correlation",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/corrr",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Jackson",
+                    "given": "Simon"
+                },
+                {
+                    "family": "Cimentada",
+                    "given": "Jorge"
+                }
+            ],
+            "id": "R-corrr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 0.4.4",
+            "title": "Corrr: Correlations in r",
+            "title-short": "Corrr",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/datawizard/",
+            "author": [
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Bacher",
+                    "given": "Etienne"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                }
+            ],
+            "id": "R-datawizard",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.10.0",
+            "title": "Datawizard: Easy data wrangling and statistical transformations",
+            "title-short": "Datawizard",
+            "type": "book"
+        },
+        {
+            "URL": "https://dials.tidymodels.org",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Frick",
+                    "given": "Hannah"
+                }
+            ],
+            "id": "R-dials",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.2.1",
+            "title": "Dials: Tools for creating tuning parameter values",
+            "title-short": "Dials",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/maiermarco/DirichletReg\nhttps://CRAN.R-project.org/package=DirichletReg",
+            "author": [
+                {
+                    "family": "Maier",
+                    "given": "Marco Johannes"
+                }
+            ],
+            "id": "R-DirichletReg",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "note": "R package version 0.7-1",
+            "title": "DirichletReg: Dirichlet regression",
+            "title-short": "DirichletReg",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/RevolutionAnalytics/doparallel",
+            "author": [
+                {
+                    "family": "Corporation",
+                    "given": "Microsoft"
+                },
+                {
+                    "family": "Weston",
+                    "given": "Steve"
+                }
+            ],
+            "id": "R-doParallel",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.17",
+            "title": "doParallel: Foreach parallel adaptor for the parallel package",
+            "title-short": "doParallel",
+            "type": "book"
+        },
+        {
+            "URL": "https://dplyr.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "François",
+                    "given": "Romain"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Lionel"
+                },
+                {
+                    "family": "Müller",
+                    "given": "Kirill"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                }
+            ],
+            "id": "R-dplyr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.1.4",
+            "title": "Dplyr: A grammar of data manipulation",
+            "title-short": "Dplyr",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/easystats/",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Bacher",
+                    "given": "Etienne"
+                },
+                {
+                    "family": "Thériault",
+                    "given": "Rémi"
+                }
+            ],
+            "id": "R-easystats",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.7.1",
+            "title": "Easystats: Framework for easy statistical modeling, visualization, and reporting",
+            "title-short": "Easystats",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/effectsize/",
+            "author": [
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Thériault",
+                    "given": "Rémi"
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                }
+            ],
+            "id": "R-effectsize",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.8.7",
+            "title": "Effectsize: Indices of effect size",
+            "title-short": "Effectsize",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/rvlenth/emmeans",
+            "author": [
+                {
+                    "family": "Lenth",
+                    "given": "Russell V."
+                }
+            ],
+            "id": "R-emmeans",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.10.0",
+            "title": "Emmeans: Estimated marginal means, aka least-squares means",
+            "title-short": "Emmeans",
+            "type": "book"
+        },
+        {
+            "URL": "http://www.sthda.com/english/rpkgs/factoextra",
+            "author": [
+                {
+                    "family": "Kassambara",
+                    "given": "Alboukadel"
+                },
+                {
+                    "family": "Mundt",
+                    "given": "Fabian"
+                }
+            ],
+            "id": "R-factoextra",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.7",
+            "title": "Factoextra: Extract and visualize the results of multivariate data analyses",
+            "title-short": "Factoextra",
+            "type": "book"
+        },
+        {
+            "URL": "http://factominer.free.fr",
+            "author": [
+                {
+                    "family": "Husson",
+                    "given": "Francois"
+                },
+                {
+                    "family": "Josse",
+                    "given": "Julie"
+                },
+                {
+                    "family": "Le",
+                    "given": "Sebastien"
+                },
+                {
+                    "family": "Mazet",
+                    "given": "Jeremy"
+                }
+            ],
+            "id": "R-FactoMineR",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 2.10",
+            "title": "FactoMineR: Multivariate exploratory data analysis and data mining",
+            "title-short": "FactoMineR",
+            "type": "book"
+        },
+        {
+            "URL": "https://forcats.tidyverse.org/",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-forcats",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.0, https://github.com/tidyverse/forcats",
+            "title": "Forcats: Tools for working with categorical variables (factors)",
+            "title-short": "Forcats",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "literal": "Revolution Analytics"
+                },
+                {
+                    "family": "Weston",
+                    "given": "Steve"
+                }
+            ],
+            "id": "R-foreach",
+            "title": "Foreach: Provides foreach looping construct",
+            "title-short": "Foreach",
+            "type": "book"
+        },
+        {
+            "URL": "https://fs.r-lib.org",
+            "author": [
+                {
+                    "family": "Hester",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Csárdi",
+                    "given": "Gábor"
+                }
+            ],
+            "id": "R-fs",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.6.3",
+            "title": "Fs: Cross-platform file system operations based on libuv",
+            "title-short": "Fs",
+            "type": "book"
+        },
+        {
+            "URL": "https://ggobi.github.io/ggally/",
+            "author": [
+                {
+                    "family": "Schloerke",
+                    "given": "Barret"
+                },
+                {
+                    "family": "Cook",
+                    "given": "Di"
+                },
+                {
+                    "family": "Larmarange",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Briatte",
+                    "given": "Francois"
+                },
+                {
+                    "family": "Marbach",
+                    "given": "Moritz"
+                },
+                {
+                    "family": "Thoen",
+                    "given": "Edwin"
+                },
+                {
+                    "family": "Elberg",
+                    "given": "Amos"
+                },
+                {
+                    "family": "Crowley",
+                    "given": "Jason"
+                }
+            ],
+            "id": "R-GGally",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 2.2.1",
+            "title": "GGally: Extension to ggplot2",
+            "title-short": "GGally",
+            "type": "book"
+        },
+        {
+            "URL": "https://gganimate.com",
+            "author": [
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                },
+                {
+                    "family": "Robinson",
+                    "given": "David"
+                }
+            ],
+            "id": "R-gganimate",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.9",
+            "title": "Gganimate: A grammar of animated graphics",
+            "title-short": "Gganimate",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/eclarke/ggbeeswarm",
+            "author": [
+                {
+                    "family": "Clarke",
+                    "given": "Erik"
+                },
+                {
+                    "family": "Sherrill-Mix",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Dawson",
+                    "given": "Charlotte"
+                }
+            ],
+            "id": "R-ggbeeswarm",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.7.2",
+            "title": "Ggbeeswarm: Categorical scatter (violin point) plots",
+            "title-short": "Ggbeeswarm",
+            "type": "book"
+        },
+        {
+            "URL": "https://andrie.github.io/ggdendro/",
+            "author": [
+                {
+                    "family": "Vries",
+                    "given": "Andrie",
+                    "non-dropping-particle": "de"
+                },
+                {
+                    "family": "Ripley",
+                    "given": "Brian D."
+                }
+            ],
+            "id": "R-ggdendro",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.2.0",
+            "title": "Ggdendro: Create dendrograms and tree diagrams using ggplot2",
+            "title-short": "Ggdendro",
+            "type": "book"
+        },
+        {
+            "URL": "https://mjskay.github.io/ggdist/",
+            "author": [
+                {
+                    "family": "Kay",
+                    "given": "Matthew"
+                }
+            ],
+            "id": "R-ggdist",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 3.3.2, https://github.com/mjskay/ggdist/",
+            "title": "Ggdist: Visualizations of distributions and uncertainty",
+            "title-short": "Ggdist",
+            "type": "book"
+        },
+        {
+            "URL": "https://ggforce.data-imaginist.com",
+            "author": [
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                }
+            ],
+            "id": "R-ggforce",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.4.2, https://github.com/thomasp85/ggforce",
+            "title": "Ggforce: Accelerating ggplot2",
+            "title-short": "Ggforce",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/coolbutuseless/ggpattern",
+            "author": [
+                {
+                    "family": "FC",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Davis",
+                    "given": "Trevor L"
+                },
+                {
+                    "literal": "ggplot2 authors"
+                }
+            ],
+            "id": "R-ggpattern",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.1, https://coolbutuseless.github.io/package/ggpattern/index.html",
+            "title": "Ggpattern: ggplot2 pattern geoms",
+            "title-short": "Ggpattern",
+            "type": "book"
+        },
+        {
+            "URL": "https://ggplot2.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Lionel"
+                },
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                },
+                {
+                    "family": "Takahashi",
+                    "given": "Kohske"
+                },
+                {
+                    "family": "Wilke",
+                    "given": "Claus"
+                },
+                {
+                    "family": "Woo",
+                    "given": "Kara"
+                },
+                {
+                    "family": "Yutani",
+                    "given": "Hiroaki"
+                },
+                {
+                    "family": "Dunnington",
+                    "given": "Dewey"
+                },
+                {
+                    "family": "Brand",
+                    "given": "Teun",
+                    "non-dropping-particle": "van den"
+                }
+            ],
+            "id": "R-ggplot2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 3.5.0, https://github.com/tidyverse/ggplot2",
+            "title": "ggplot2: Create elegant data visualisations using the grammar of graphics",
+            "title-short": "ggplot2",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/LKremer/ggpointdensity",
+            "author": [
+                {
+                    "family": "Kremer",
+                    "given": "Lukas P. M."
+                }
+            ],
+            "id": "R-ggpointdensity",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "R package version 0.1.0",
+            "title": "Ggpointdensity: A cross between a 2D density plot and a scatter plot",
+            "title-short": "Ggpointdensity",
+            "type": "book"
+        },
+        {
+            "URL": "https://rpkgs.datanovia.com/ggpubr/",
+            "author": [
+                {
+                    "family": "Kassambara",
+                    "given": "Alboukadel"
+                }
+            ],
+            "id": "R-ggpubr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.6.0",
+            "title": "Ggpubr: ggplot2 based publication ready plots",
+            "title-short": "Ggpubr",
+            "type": "book"
+        },
+        {
+            "URL": "https://ggrepel.slowkow.com/",
+            "author": [
+                {
+                    "family": "Slowikowski",
+                    "given": "Kamil"
+                }
+            ],
+            "id": "R-ggrepel",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.9.5",
+            "title": "Ggrepel: Automatically position non-overlapping text labels with ggplot2",
+            "title-short": "Ggrepel",
+            "type": "book"
+        },
+        {
+            "URL": "https://wilkelab.org/ggridges/",
+            "author": [
+                {
+                    "family": "Wilke",
+                    "given": "Claus O."
+                }
+            ],
+            "id": "R-ggridges",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.5.6",
+            "title": "Ggridges: Ridgeline plots in ggplot2",
+            "title-short": "Ggridges",
+            "type": "book"
+        },
+        {
+            "URL": "https://nanx.me/ggsci/",
+            "author": [
+                {
+                    "family": "Xiao",
+                    "given": "Nan"
+                }
+            ],
+            "id": "R-ggsci",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 3.0.3",
+            "title": "Ggsci: Scientific journal and sci-fi themed color palettes for ggplot2",
+            "title-short": "Ggsci",
+            "type": "book"
+        },
+        {
+            "URL": "https://wilkelab.org/ggtext/",
+            "author": [
+                {
+                    "family": "Wilke",
+                    "given": "Claus O."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                }
+            ],
+            "id": "R-ggtext",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 0.1.2",
+            "title": "Ggtext: Improved text rendering support for ggplot2",
+            "title-short": "Ggtext",
+            "type": "book"
+        },
+        {
+            "URL": "https://jrnold.github.io/ggthemes/",
+            "author": [
+                {
+                    "family": "Arnold",
+                    "given": "Jeffrey B."
+                }
+            ],
+            "id": "R-ggthemes",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 5.1.0, https://github.com/jrnold/ggthemes",
+            "title": "Ggthemes: Extra themes, scales and geoms for ggplot2",
+            "title-short": "Ggthemes",
+            "type": "book"
+        },
+        {
+            "URL": "https://gavinsimpson.github.io/gratia/",
+            "author": [
+                {
+                    "family": "Simpson",
+                    "given": "Gavin L."
+                }
+            ],
+            "id": "R-gratia",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.9.0",
+            "title": "Gratia: Graceful ggplot-based graphics and other functions for GAMs fitted using mgcv",
+            "title-short": "Gratia",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/Aariq/holodeck",
+            "author": [
+                {
+                    "family": "Scott",
+                    "given": "Eric"
+                }
+            ],
+            "id": "R-holodeck",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.2.2",
+            "title": "Holodeck: A tidy interface for simulating multivariate data",
+            "title-short": "Holodeck",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/infer",
+            "author": [
+                {
+                    "family": "Bray",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Ismay",
+                    "given": "Chester"
+                },
+                {
+                    "family": "Chasnovski",
+                    "given": "Evgeni"
+                },
+                {
+                    "family": "Couch",
+                    "given": "Simon"
+                },
+                {
+                    "family": "Baumer",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Cetinkaya-Rundel",
+                    "given": "Mine"
+                }
+            ],
+            "id": "R-infer",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.7",
+            "title": "Infer: Tidy statistical inference",
+            "title-short": "Infer",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/insight/",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Arel-Bundock",
+                    "given": "Vincent"
+                },
+                {
+                    "family": "Bacher",
+                    "given": "Etienne"
+                }
+            ],
+            "id": "R-insight",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.19.10",
+            "title": "Insight: Easy access to model information for various model objects",
+            "title-short": "Insight",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/RevolutionAnalytics/iterators",
+            "author": [
+                {
+                    "family": "Analytics",
+                    "given": "Revolution"
+                },
+                {
+                    "family": "Weston",
+                    "given": "Steve"
+                }
+            ],
+            "id": "R-iterators",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.14",
+            "title": "Iterators: Provides iterator construct",
+            "title-short": "Iterators",
+            "type": "book"
+        },
+        {
+            "URL": "https://jeroen.r-universe.dev/jsonlite\nhttps://arxiv.org/abs/1403.2805",
+            "author": [
+                {
+                    "family": "Ooms",
+                    "given": "Jeroen"
+                }
+            ],
+            "id": "R-jsonlite",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.8.8",
+            "title": "Jsonlite: A simple and robust JSON parser and generator for r",
+            "title-short": "Jsonlite",
+            "type": "book"
+        },
+        {
+            "URL": "https://yihui.org/knitr/",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "id": "R-knitr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.45",
+            "title": "Knitr: A general-purpose package for dynamic report generation in r",
+            "title-short": "Knitr",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.stefanom.io/latex2exp/",
+            "author": [
+                {
+                    "family": "Meschiari",
+                    "given": "Stefano"
+                }
+            ],
+            "id": "R-latex2exp",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 0.9.6, https://github.com/stefano-meschiari/latex2exp",
+            "title": "latex2exp: Use LaTeX expressions in plots",
+            "title-short": "latex2exp",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/DesiQuintans/librarian",
+            "author": [
+                {
+                    "family": "Quintans",
+                    "given": "Desi"
+                }
+            ],
+            "id": "R-librarian",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "note": "R package version 1.8.1",
+            "title": "Librarian: Install, update, load packages from CRAN, GitHub, and bioconductor in one step",
+            "title-short": "Librarian",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/lme4/lme4/",
+            "author": [
+                {
+                    "family": "Bates",
+                    "given": "Douglas"
+                },
+                {
+                    "family": "Maechler",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Bolker",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Walker",
+                    "given": "Steven"
+                }
+            ],
+            "id": "R-lme4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.1-35.1",
+            "title": "lme4: Linear mixed-effects models using eigen and S4",
+            "title-short": "lme4",
+            "type": "book"
+        },
+        {
+            "URL": "https://lubridate.tidyverse.org",
+            "author": [
+                {
+                    "family": "Spinu",
+                    "given": "Vitalie"
+                },
+                {
+                    "family": "Grolemund",
+                    "given": "Garrett"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-lubridate",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.9.3, https://github.com/tidyverse/lubridate",
+            "title": "Lubridate: Make dealing with dates a little easier",
+            "title-short": "Lubridate",
+            "type": "book"
+        },
+        {
+            "URL": "https://Matrix.R-forge.R-project.org",
+            "author": [
+                {
+                    "family": "Bates",
+                    "given": "Douglas"
+                },
+                {
+                    "family": "Maechler",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Jagan",
+                    "given": "Mikael"
+                }
+            ],
+            "id": "R-Matrix",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.6-1.1",
+            "title": "Matrix: Sparse and dense matrix classes and methods",
+            "title-short": "Matrix",
+            "type": "book"
+        },
+        {
+            "URL": "https://mclust-org.github.io/mclust/",
+            "author": [
+                {
+                    "family": "Fraley",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Raftery",
+                    "given": "Adrian E."
+                },
+                {
+                    "family": "Scrucca",
+                    "given": "Luca"
+                }
+            ],
+            "id": "R-mclust",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 6.1",
+            "title": "Mclust: Gaussian mixture modelling for model-based clustering, classification, and density estimation",
+            "title-short": "Mclust",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/mfasiolo/mgcViz",
+            "author": [
+                {
+                    "family": "Fasiolo",
+                    "given": "Matteo"
+                },
+                {
+                    "family": "Nedellec",
+                    "given": "Raphael"
+                }
+            ],
+            "id": "R-mgcViz",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.1.11",
+            "title": "mgcViz: Visualisations for generalized additive models",
+            "title-short": "mgcViz",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/modelbased/",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                }
+            ],
+            "id": "R-modelbased",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.8.7",
+            "title": "Modelbased: Estimation of model-based predictions, contrasts and means",
+            "title-short": "Modelbased",
+            "type": "book"
+        },
+        {
+            "URL": "https://modeldata.tidymodels.org",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                }
+            ],
+            "id": "R-modeldata",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.3.0, https://github.com/tidymodels/modeldata",
+            "title": "Modeldata: Data sets useful for modeling examples",
+            "title-short": "Modeldata",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/multilevelmod",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Frick",
+                    "given": "Hannah"
+                }
+            ],
+            "id": "R-multilevelmod",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.0, http://multilevelmod.tidymodels.org/",
+            "title": "Multilevelmod: Model wrappers for multi-level models",
+            "title-short": "Multilevelmod",
+            "type": "book"
+        },
+        {
+            "URL": "https://svn.r-project.org/R-packages/trunk/nlme/",
+            "author": [
+                {
+                    "family": "Pinheiro",
+                    "given": "José"
+                },
+                {
+                    "family": "Bates",
+                    "given": "Douglas"
+                },
+                {
+                    "literal": "R Core Team"
+                }
+            ],
+            "id": "R-nlme",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 3.1-164",
+            "title": "Nlme: Linear and nonlinear mixed effects models",
+            "title-short": "Nlme",
+            "type": "book"
+        },
+        {
+            "URL": "https://ycphs.github.io/openxlsx/index.html",
+            "author": [
+                {
+                    "family": "Schauberger",
+                    "given": "Philipp"
+                },
+                {
+                    "family": "Walker",
+                    "given": "Alexander"
+                }
+            ],
+            "id": "R-openxlsx",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 4.2.5.2, https://github.com/ycphs/openxlsx",
+            "title": "Openxlsx: Read, write and edit xlsx files",
+            "title-short": "Openxlsx",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/parameters/",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Højsgaard",
+                    "given": "Søren"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                }
+            ],
+            "id": "R-parameters",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.21.6",
+            "title": "Parameters: Processing of model parameters",
+            "title-short": "Parameters",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/parsnip",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                }
+            ],
+            "id": "R-parsnip",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.2.1, https://parsnip.tidymodels.org/",
+            "title": "Parsnip: A common API to modeling and analysis functions",
+            "title-short": "Parsnip",
+            "type": "book"
+        },
+        {
+            "URL": "https://patchwork.data-imaginist.com",
+            "author": [
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                }
+            ],
+            "id": "R-patchwork",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.2.0, https://github.com/thomasp85/patchwork",
+            "title": "Patchwork: The composer of plots",
+            "title-short": "Patchwork",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/performance/",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Thériault",
+                    "given": "Rémi"
+                }
+            ],
+            "id": "R-performance",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.11.0",
+            "title": "Performance: Assessment of regression models performance",
+            "title-short": "Performance",
+            "type": "book"
+        },
+        {
+            "URL": "https://plotly-r.com",
+            "author": [
+                {
+                    "family": "Sievert",
+                    "given": "Carson"
+                },
+                {
+                    "family": "Parmer",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Hocking",
+                    "given": "Toby"
+                },
+                {
+                    "family": "Chamberlain",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Ram",
+                    "given": "Karthik"
+                },
+                {
+                    "family": "Corvellec",
+                    "given": "Marianne"
+                },
+                {
+                    "family": "Despouy",
+                    "given": "Pedro"
+                }
+            ],
+            "id": "R-plotly",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 4.10.4",
+            "title": "Plotly: Create interactive web graphics via plotly.js",
+            "title-short": "Plotly",
+            "type": "book"
+        },
+        {
+            "URL": "https://purrr.tidyverse.org/",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Lionel"
+                }
+            ],
+            "id": "R-purrr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.2",
+            "title": "Purrr: Functional programming tools",
+            "title-short": "Purrr",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.rcpp.org",
+            "author": [
+                {
+                    "family": "Eddelbuettel",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Francois",
+                    "given": "Romain"
+                },
+                {
+                    "family": "Allaire",
+                    "given": "JJ"
+                },
+                {
+                    "family": "Ushey",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Kou",
+                    "given": "Qiang"
+                },
+                {
+                    "family": "Russell",
+                    "given": "Nathan"
+                },
+                {
+                    "family": "Ucar",
+                    "given": "Inaki"
+                },
+                {
+                    "family": "Bates",
+                    "given": "Douglas"
+                },
+                {
+                    "family": "Chambers",
+                    "given": "John"
+                }
+            ],
+            "id": "R-Rcpp",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.12, https://dirk.eddelbuettel.com/code/rcpp.html",
+            "title": "Rcpp: Seamless r and c++ integration",
+            "title-short": "Rcpp",
+            "type": "book"
+        },
+        {
+            "URL": "https://readr.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Hester",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Bryan",
+                    "given": "Jennifer"
+                }
+            ],
+            "id": "R-readr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 2.1.5",
+            "title": "Readr: Read rectangular text data",
+            "title-short": "Readr",
+            "type": "book"
+        },
+        {
+            "URL": "https://readxl.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Bryan",
+                    "given": "Jennifer"
+                }
+            ],
+            "id": "R-readxl",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.4.3",
+            "title": "Readxl: Read excel files",
+            "title-short": "Readxl",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/recipes",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Hvitfeldt",
+                    "given": "Emil"
+                }
+            ],
+            "id": "R-recipes",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.10, https://recipes.tidymodels.org/",
+            "title": "Recipes: Preprocessing and feature engineering steps for modeling",
+            "title-short": "Recipes",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/report/",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Thériault",
+                    "given": "Rémi"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                }
+            ],
+            "id": "R-report",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.5.8",
+            "title": "Report: Automated reporting of results and statistical models",
+            "title-short": "Report",
+            "type": "book"
+        },
+        {
+            "URL": "https://rstudio.github.io/reticulate/",
+            "author": [
+                {
+                    "family": "Ushey",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Allaire",
+                    "given": "JJ"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Yuan"
+                }
+            ],
+            "id": "R-reticulate",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.35.0, https://github.com/rstudio/reticulate",
+            "title": "Reticulate: Interface to python",
+            "title-short": "Reticulate",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/dmurdoch/rgl",
+            "author": [
+                {
+                    "family": "Adler",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Murdoch",
+                    "given": "Duncan"
+                }
+            ],
+            "id": "R-rgl",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.3.1",
+            "title": "Rgl: 3D visualization using OpenGL",
+            "title-short": "Rgl",
+            "type": "book"
+        },
+        {
+            "URL": "https://rsample.tidymodels.org",
+            "author": [
+                {
+                    "family": "Frick",
+                    "given": "Hannah"
+                },
+                {
+                    "family": "Chow",
+                    "given": "Fanny"
+                },
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Mahoney",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Silge",
+                    "given": "Julia"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-rsample",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.2.1, https://github.com/tidymodels/rsample",
+            "title": "Rsample: General resampling infrastructure",
+            "title-short": "Rsample",
+            "type": "book"
+        },
+        {
+            "URL": "https://mc-stan.org/rstanarm/",
+            "author": [
+                {
+                    "family": "Gabry",
+                    "given": "Jonah"
+                },
+                {
+                    "family": "Goodrich",
+                    "given": "Ben"
+                }
+            ],
+            "id": "R-rstanarm",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 2.32.1",
+            "title": "Rstanarm: Bayesian applied regression modeling via stan",
+            "title-short": "Rstanarm",
+            "type": "book"
+        },
+        {
+            "URL": "https://rpkgs.datanovia.com/rstatix/",
+            "author": [
+                {
+                    "family": "Kassambara",
+                    "given": "Alboukadel"
+                }
+            ],
+            "id": "R-rstatix",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.7.2",
+            "title": "Rstatix: Pipe-friendly framework for basic statistical tests",
+            "title-short": "Rstatix",
+            "type": "book"
+        },
+        {
+            "URL": "https://scales.r-lib.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                },
+                {
+                    "family": "Seidel",
+                    "given": "Dana"
+                }
+            ],
+            "id": "R-scales",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.3.0",
+            "title": "Scales: Scale functions for visualization",
+            "title-short": "Scales",
+            "type": "book"
+        },
+        {
+            "URL": "https://easystats.github.io/see/",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                }
+            ],
+            "id": "R-see",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.8.3",
+            "title": "See: Model visualisation toolbox for easystats and ggplot2",
+            "title-short": "See",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/mhahsler/seriation",
+            "author": [
+                {
+                    "family": "Hahsler",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Buchta",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Hornik",
+                    "given": "Kurt"
+                }
+            ],
+            "id": "R-seriation",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.5.4",
+            "title": "Seriation: Infrastructure for ordering objects using seriation",
+            "title-short": "Seriation",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/yixuan/showtext",
+            "author": [
+                {
+                    "family": "Qiu",
+                    "given": "Yixuan"
+                },
+                {
+                    "dropping-particle": "authors/contributors of the included software.",
+                    "family": "See file AUTHORS for details."
+                }
+            ],
+            "id": "R-showtext",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.9-7",
+            "title": "Showtext: Using fonts more easily in r graphs",
+            "title-short": "Showtext",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/pitakakariki/simr",
+            "author": [
+                {
+                    "family": "Green",
+                    "given": "Peter"
+                },
+                {
+                    "family": "MacLeod",
+                    "given": "Catriona"
+                }
+            ],
+            "id": "R-simr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.0.7",
+            "title": "Simr: Power analysis for generalised linear mixed models by simulation",
+            "title-short": "Simr",
+            "type": "book"
+        },
+        {
+            "URL": "https://stringr.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-stringr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 1.5.1, https://github.com/tidyverse/stringr",
+            "title": "Stringr: Simple, consistent wrappers for common string operations",
+            "title-short": "Stringr",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/yixuan/sysfonts",
+            "author": [
+                {
+                    "family": "Qiu",
+                    "given": "Yixuan"
+                },
+                {
+                    "dropping-particle": "authors/contributors of the included fonts.",
+                    "family": "See file AUTHORS for details."
+                }
+            ],
+            "id": "R-sysfonts",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.8.9",
+            "title": "Sysfonts: Loading fonts into r",
+            "title-short": "Sysfonts",
+            "type": "book"
+        },
+        {
+            "URL": "https://tibble.tidyverse.org/",
+            "author": [
+                {
+                    "family": "Müller",
+                    "given": "Kirill"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-tibble",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 3.2.1",
+            "title": "Tibble: Simple data frames",
+            "title-short": "Tibble",
+            "type": "book"
+        },
+        {
+            "URL": "https://mjskay.github.io/tidybayes/",
+            "author": [
+                {
+                    "family": "Kay",
+                    "given": "Matthew"
+                }
+            ],
+            "id": "R-tidybayes",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 3.0.6, https://github.com/mjskay/tidybayes/",
+            "title": "Tidybayes: Tidy data and geoms for bayesian models",
+            "title-short": "Tidybayes",
+            "type": "book"
+        },
+        {
+            "URL": "https://tidymodels.tidymodels.org",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-tidymodels",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.2.0, https://github.com/tidymodels/tidymodels",
+            "title": "Tidymodels: Easily install and load the tidymodels packages",
+            "title-short": "Tidymodels",
+            "type": "book"
+        },
+        {
+            "URL": "https://tidyr.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                },
+                {
+                    "family": "Girlich",
+                    "given": "Maximilian"
+                }
+            ],
+            "id": "R-tidyr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.3.1",
+            "title": "Tidyr: Tidy messy data",
+            "title-short": "Tidyr",
+            "type": "book"
+        },
+        {
+            "URL": "https://tidyverse.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-tidyverse",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 2.0.0, https://github.com/tidyverse/tidyverse",
+            "title": "Tidyverse: Easily install and load the tidyverse",
+            "title-short": "Tidyverse",
+            "type": "book"
+        },
+        {
+            "URL": "https://tune.tidymodels.org/",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                }
+            ],
+            "id": "R-tune",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.2.0",
+            "title": "Tune: Tidy tuning tools",
+            "title-short": "Tune",
+            "type": "book"
+        },
+        {
+            "URL": "https://sjmgarnier.github.io/viridis/",
+            "author": [
+                {
+                    "family": "Garnier",
+                    "given": "Simon"
+                }
+            ],
+            "id": "R-viridis",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 0.6.5, https://github.com/sjmgarnier/viridis/",
+            "title": "Viridis: Colorblind-friendly color maps for r",
+            "title-short": "Viridis",
+            "type": "book"
+        },
+        {
+            "URL": "https://sjmgarnier.github.io/viridisLite/",
+            "author": [
+                {
+                    "family": "Garnier",
+                    "given": "Simon"
+                }
+            ],
+            "id": "R-viridisLite",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.4.2, https://github.com/sjmgarnier/viridisLite/",
+            "title": "viridisLite: Colorblind-friendly color maps (lite version)",
+            "title-short": "viridisLite",
+            "type": "book"
+        },
+        {
+            "URL": "https://wch.github.io/webshot/",
+            "author": [
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                }
+            ],
+            "id": "R-webshot",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.5.5",
+            "title": "Webshot: Take screenshots of web pages",
+            "title-short": "Webshot",
+            "type": "book"
+        },
+        {
+            "URL": "https://rstudio.github.io/webshot2/",
+            "author": [
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                }
+            ],
+            "id": "R-webshot2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.1.1, https://github.com/rstudio/webshot2",
+            "title": "webshot2: Take screenshots of web pages",
+            "title-short": "webshot2",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/karthik/wesanderson",
+            "author": [
+                {
+                    "family": "Ram",
+                    "given": "Karthik"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "R-wesanderson",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "R package version 0.3.7",
+            "title": "Wesanderson: A wes anderson palette generator",
+            "title-short": "Wesanderson",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/workflows",
+            "author": [
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                },
+                {
+                    "family": "Couch",
+                    "given": "Simon"
+                }
+            ],
+            "id": "R-workflows",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.1.4, https://workflows.tidymodels.org",
+            "title": "Workflows: Modeling workflows",
+            "title-short": "Workflows",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/workflowsets",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Couch",
+                    "given": "Simon"
+                }
+            ],
+            "id": "R-workflowsets",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.1.0, https://workflowsets.tidymodels.org",
+            "title": "Workflowsets: Create a collection of tidymodels workflows",
+            "title-short": "Workflowsets",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/tidymodels/yardstick",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                },
+                {
+                    "family": "Hvitfeldt",
+                    "given": "Emil"
+                }
+            ],
+            "id": "R-yardstick",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "R package version 1.3.1, https://yardstick.tidymodels.org",
+            "title": "Yardstick: Tidy characterizations of model performance",
+            "title-short": "Yardstick",
+            "type": "book"
+        },
+        {
+            "DOI": "10.5281/zenodo.4426836",
+            "URL": "https://hsbadr.github.io/bayesian/",
+            "author": [
+                {
+                    "family": "Badr",
+                    "given": "Hamada S."
+                },
+                {
+                    "family": "Bürkner",
+                    "given": "Paul C."
+                }
+            ],
+            "container-title": "Comprehensive R Archive Network (CRAN)",
+            "id": "bayesian-manual",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "Bayesian: Bindings for bayesian TidyModels",
+            "title-short": "Bayesian",
+            "type": "book"
+        },
+        {
+            "DOI": "10.21105/joss.01541",
+            "URL": "https://joss.theoj.org/papers/10.21105/joss.01541",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "bayestestR2019",
+            "issue": "40",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "1541",
+            "title": "bayestestR: Describing effects and their uncertainty, existence and significance within the bayesian framework.",
+            "title-short": "bayestestR",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.18637/jss.v080.i01",
+            "author": [
+                {
+                    "family": "Bürkner",
+                    "given": "Paul-Christian"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "brms2017",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "1-28",
+            "title": "brms: An R package for Bayesian multilevel models using Stan",
+            "title-short": "brms",
+            "type": "article-journal",
+            "volume": "80"
+        },
+        {
+            "DOI": "10.32614/RJ-2018-017",
+            "author": [
+                {
+                    "family": "Bürkner",
+                    "given": "Paul-Christian"
+                }
+            ],
+            "container-title": "The R Journal",
+            "id": "brms2018",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "395-411",
+            "title": "Advanced Bayesian multilevel modeling with the R package brms",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
+            "DOI": "10.18637/jss.v100.i05",
+            "author": [
+                {
+                    "family": "Bürkner",
+                    "given": "Paul-Christian"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "brms2021",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "1-54",
+            "title": "Bayesian item response modeling in R with brms and Stan",
+            "type": "article-journal",
+            "volume": "100"
+        },
+        {
+            "URL": "https://journal.r-project.org/archive/",
+            "author": [
+                {
+                    "family": "Plummer",
+                    "given": "Martyn"
+                },
+                {
+                    "family": "Best",
+                    "given": "Nicky"
+                },
+                {
+                    "family": "Cowles",
+                    "given": "Kate"
+                },
+                {
+                    "family": "Vines",
+                    "given": "Karen"
+                }
+            ],
+            "container-title": "R News",
+            "id": "coda2006",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006
+                    ]
+                ]
+            },
+            "page": "7-11",
+            "title": "CODA: Convergence diagnosis and output analysis for MCMC",
+            "title-short": "CODA",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "URL": "https://CRAN.R-project.org/package=correlation",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                }
+            ],
+            "id": "correlationPackage",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        10
+                    ]
+                ]
+            },
+            "note": "Version 0.8.3",
+            "title": "correlation: Methods for correlation analysis",
+            "title-short": "correlation",
+            "type": ""
+        },
+        {
+            "DOI": "10.21105/joss.02306",
+            "URL": "https://joss.theoj.org/papers/10.21105/joss.02306",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "correlationArticle",
+            "issue": "51",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "2306",
+            "title": "Methods and algorithms for correlation analysis in R",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
+            "DOI": "10.21105/joss.04684",
+            "author": [
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Bacher",
+                    "given": "Etienne"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "datawizard2022",
+            "issue": "78",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "4684",
+            "title": "datawizard: An R package for easy data preparation and statistical transformations",
+            "title-short": "datawizard",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "URL": "https://epub.wu.ac.at/4077/",
+            "author": [
+                {
+                    "family": "Maier",
+                    "given": "Marco J."
+                }
+            ],
+            "genre": "{Research Report Series{\\slash}Department of Statistics and Mathematics}",
+            "id": "DirichletReg2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "number": "125",
+            "publisher": "WU Vienna University of Economics and Business",
+            "publisher-place": "Vienna",
+            "title": "DirichletReg: Dirichlet regression for compositional data in r",
+            "title-short": "DirichletReg",
+            "type": "report"
+        },
+        {
+            "URL": "https://easystats.github.io/easystats/",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Bacher",
+                    "given": "Etienne"
+                },
+                {
+                    "family": "Thériault",
+                    "given": "Rémi"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                }
+            ],
+            "container-title": "CRAN",
+            "id": "easystats2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "note": "R package",
+            "title": "Easystats: Framework for easy statistical modeling, visualization, and reporting",
+            "title-short": "Easystats",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.21105/joss.02815",
+            "URL": "https://doi.org/10.21105/joss.02815",
+            "author": [
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "effectsize2020",
+            "issue": "56",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "2815",
+            "publisher": "The Open Journal",
+            "title": "effectsize: Estimation of effect size indices and standardized parameters",
+            "title-short": "effectsize",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
+            "DOI": "10.18637/jss.v025.i01",
+            "author": [
+                {
+                    "family": "Lê",
+                    "given": "Sébastien"
+                },
+                {
+                    "family": "Josse",
+                    "given": "Julie"
+                },
+                {
+                    "family": "Husson",
+                    "given": "François"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "FactoMineR2008",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "1-18",
+            "title": "FactoMineR: A package for multivariate analysis",
+            "title-short": "FactoMineR",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
+            "DOI": "10.18637/jss.v034.i01",
+            "author": [
+                {
+                    "family": "Zeileis",
+                    "given": "Achim"
+                },
+                {
+                    "family": "Croissant",
+                    "given": "Yves"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "Formula2010",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "page": "1-13",
+            "title": "Extended model formulas in R: Multiple parts and multiple responses",
+            "title-short": "Extended model formulas in R",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
+            "DOI": "10.1109/TVCG.2023.3327195",
+            "author": [
+                {
+                    "family": "Kay",
+                    "given": "Matthew"
+                }
+            ],
+            "container-title": "IEEE Transactions on Visualization and Computer Graphics",
+            "id": "ggdist2024",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "414-424",
+            "title": "ggdist: Visualizations of distributions and uncertainty in the grammar of graphics",
+            "title-short": "ggdist",
+            "type": "article-journal",
+            "volume": "30"
+        },
+        {
+            "ISBN": "978-3-319-24277-4",
+            "URL": "https://ggplot2.tidyverse.org",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "ggplot22016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "publisher": "Springer-Verlag New York",
+            "title": "ggplot2: Elegant graphics for data analysis",
+            "title-short": "ggplot2",
+            "type": "book"
+        },
+        {
+            "DOI": "10.21105/joss.03661",
+            "author": [
+                {
+                    "family": "Couch",
+                    "given": "Simon P."
+                },
+                {
+                    "family": "Bray",
+                    "given": "Andrew P."
+                },
+                {
+                    "family": "Ismay",
+                    "given": "Chester"
+                },
+                {
+                    "family": "Chasnovski",
+                    "given": "Evgeni"
+                },
+                {
+                    "family": "Baumer",
+                    "given": "Benjamin S."
+                },
+                {
+                    "family": "Çetinkaya-Rundel",
+                    "given": "Mine"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "infer2021",
+            "issue": "65",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "3661",
+            "title": "infer: An R package for tidyverse-friendly statistical inference",
+            "title-short": "infer",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.21105/joss.01412",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "insight2019",
+            "issue": "38",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "1412",
+            "title": "insight: A unified interface to access information from model objects in R.",
+            "title-short": "insight",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "URL": "https://arxiv.org/abs/1403.2805",
+            "author": [
+                {
+                    "family": "Ooms",
+                    "given": "Jeroen"
+                }
+            ],
+            "container-title": "arXiv:1403.2805 [stat.CO]",
+            "id": "jsonlite2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "title": "The jsonlite package: A practical and consistent mapping between JSON data and r objects",
+            "title-short": "The jsonlite package",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://yihui.org/knitr/",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "edition": "2nd",
+            "id": "knitr2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "note": "ISBN 978-1498716963",
+            "publisher": "Chapman; Hall/CRC",
+            "publisher-place": "Boca Raton, Florida",
+            "title": "Dynamic documents with R and knitr",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "container-title": "Implementing reproducible computational research",
+            "editor": [
+                {
+                    "family": "Stodden",
+                    "given": "Victoria"
+                },
+                {
+                    "family": "Leisch",
+                    "given": "Friedrich"
+                },
+                {
+                    "family": "Peng",
+                    "given": "Roger D."
+                }
+            ],
+            "id": "knitr2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "note": "ISBN 978-1466561595",
+            "publisher": "Chapman; Hall/CRC",
+            "title": "Knitr: A comprehensive tool for reproducible research in R",
+            "title-short": "Knitr",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.18637/jss.v067.i01",
+            "author": [
+                {
+                    "family": "Bates",
+                    "given": "Douglas"
+                },
+                {
+                    "family": "Mächler",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Bolker",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Walker",
+                    "given": "Steve"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "lme42015",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "page": "1-48",
+            "title": "Fitting linear mixed-effects models using lme4",
+            "type": "article-journal",
+            "volume": "67"
+        },
+        {
+            "URL": "https://www.jstatsoft.org/v40/i03/",
+            "author": [
+                {
+                    "family": "Grolemund",
+                    "given": "Garrett"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "lubridate2011",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "page": "1-25",
+            "title": "Dates and times made easy with lubridate",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "DOI": "10.1201/9781003277965",
+            "ISBN": "978-1032234953",
+            "URL": "https://mclust-org.github.io/book/",
+            "author": [
+                {
+                    "family": "Scrucca",
+                    "given": "Luca"
+                },
+                {
+                    "family": "Fraley",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Murphy",
+                    "given": "T. Brendan"
+                },
+                {
+                    "family": "Raftery",
+                    "given": "Adrian E."
+                }
+            ],
+            "id": "mclust2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "Chapman; Hall/CRC",
+            "title": "Model-based clustering, classification, and density estimation using mclust in R",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wood",
+                    "given": "S. N."
+                }
+            ],
+            "container-title": "Journal of the Royal Statistical Society (B)",
+            "id": "mgcv2011",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "page": "3-36",
+            "title": "Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models",
+            "type": "article-journal",
+            "volume": "73"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wood",
+                    "given": "S. N."
+                },
+                {
+                    "literal": "N."
+                },
+                {
+                    "literal": "Pya"
+                },
+                {
+                    "family": "S\"afken",
+                    "given": "B."
+                }
+            ],
+            "container-title": "Journal of the American Statistical Association",
+            "id": "mgcv2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "1548-1575",
+            "title": "Smoothing parameter and model selection for general smooth models (with discussion)",
+            "type": "article-journal",
+            "volume": "111"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wood",
+                    "given": "S. N."
+                }
+            ],
+            "container-title": "Journal of the American Statistical Association",
+            "id": "mgcv2004",
+            "issue": "467",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004
+                    ]
+                ]
+            },
+            "page": "673-686",
+            "title": "Stable and efficient multiple smoothing parameter estimation for generalized additive models",
+            "type": "article-journal",
+            "volume": "99"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wood",
+                    "given": "S. N"
+                }
+            ],
+            "edition": "2",
+            "id": "mgcv2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "publisher": "Chapman; Hall/CRC",
+            "title": "Generalized additive models: An introduction with r",
+            "title-short": "Generalized additive models",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wood",
+                    "given": "S. N."
+                }
+            ],
+            "container-title": "Journal of the Royal Statistical Society (B)",
+            "id": "mgcv2003",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "page": "95-114",
+            "title": "Thin-plate regression splines",
+            "type": "article-journal",
+            "volume": "65"
+        },
+        {
+            "author": [
+                {
+                    "literal": "Fasiolo"
+                },
+                {
+                    "literal": "Matteo"
+                },
+                {
+                    "literal": "Nedellec"
+                },
+                {
+                    "literal": "Rapha\"el"
+                },
+                {
+                    "literal": "Goude"
+                },
+                {
+                    "literal": "Yannig"
+                },
+                {
+                    "literal": "Wood"
+                },
+                {
+                    "family": "N",
+                    "given": "Simon"
+                }
+            ],
+            "container-title": "Journal of the Royal Statistical Society (B)",
+            "id": "mgcViz2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "78-86",
+            "title": "Scalable visualisation methods for modern generalized additive models.",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
+            "URL": "https://github.com/easystats/modelbased",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                }
+            ],
+            "container-title": "CRAN",
+            "id": "modelbased2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "title": "Estimation of model-based predictions, contrasts and means.",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1007/b98882",
+            "author": [
+                {
+                    "family": "Pinheiro",
+                    "given": "José C."
+                },
+                {
+                    "family": "Bates",
+                    "given": "Douglas M."
+                }
+            ],
+            "id": "nlme2000",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "publisher": "Springer",
+            "publisher-place": "New York",
+            "title": "Mixed-effects models in s and s-PLUS",
+            "type": "book"
+        },
+        {
+            "DOI": "10.21105/joss.02445",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "parameters2020",
+            "issue": "53",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "2445",
+            "title": "Extracting, computing and exploring the parameters of statistical models using R.",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
+            "DOI": "10.21105/joss.03139",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "performance2021",
+            "issue": "60",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "3139",
+            "title": "performance: An R package for assessment, comparison and testing of statistical models",
+            "title-short": "performance",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "ISBN": "9781138331457",
+            "URL": "https://plotly-r.com",
+            "author": [
+                {
+                    "family": "Sievert",
+                    "given": "Carson"
+                }
+            ],
+            "id": "plotly2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Chapman; Hall/CRC",
+            "title": "Interactive web-based data visualization with r, plotly, and shiny",
+            "type": "book"
+        },
+        {
+            "DOI": "10.18637/jss.v100.i09",
+            "author": [
+                {
+                    "family": "Fasiolo",
+                    "given": "Matteo"
+                },
+                {
+                    "family": "Wood",
+                    "given": "Simon N."
+                },
+                {
+                    "family": "Zaffran",
+                    "given": "Margaux"
+                },
+                {
+                    "family": "Nedellec",
+                    "given": "Raphaël"
+                },
+                {
+                    "family": "Goude",
+                    "given": "Yannig"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "qgam2021",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "1-31",
+            "title": "qgam: Bayesian nonparametric quantile regression modeling in R",
+            "title-short": "qgam",
+            "type": "article-journal",
+            "volume": "100"
+        },
+        {
+            "DOI": "10.18637/jss.v040.i08",
+            "author": [
+                {
+                    "family": "Eddelbuettel",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "François",
+                    "given": "Romain"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "Rcpp2011",
+            "issue": "8",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "page": "1-18",
+            "title": "Rcpp: Seamless R and C++ integration",
+            "title-short": "Rcpp",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "DOI": "10.1007/978-1-4614-6868-4",
+            "author": [
+                {
+                    "family": "Eddelbuettel",
+                    "given": "Dirk"
+                }
+            ],
+            "id": "Rcpp2013",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "note": "ISBN 978-1-4614-6867-7",
+            "publisher": "Springer",
+            "publisher-place": "New York",
+            "title": "Seamless R and C++ integration with Rcpp",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1080/00031305.2017.1375990",
+            "author": [
+                {
+                    "family": "Eddelbuettel",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Balamuta",
+                    "given": "James Joseph"
+                }
+            ],
+            "container-title": "The American Statistician",
+            "id": "Rcpp2018",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "28-36",
+            "title": "Extending R with C++: A Brief Introduction to Rcpp",
+            "type": "article-journal",
+            "volume": "72"
+        },
+        {
+            "URL": "https://easystats.github.io/report/",
+            "author": [
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Thériault",
+                    "given": "Rémi"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                }
+            ],
+            "container-title": "CRAN",
+            "id": "report2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "title": "Automated results reporting as a practical tool to improve reproducibility and methodological best practices adoption",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://github.com/stan-dev/stancon_talks/",
+            "author": [
+                {
+                    "family": "Brilleman",
+                    "given": "SL"
+                },
+                {
+                    "family": "Crowther",
+                    "given": "MJ"
+                },
+                {
+                    "family": "Moreno-Betancur",
+                    "given": "M"
+                },
+                {
+                    "family": "Buros Novik",
+                    "given": "J"
+                },
+                {
+                    "family": "Wolfe",
+                    "given": "R"
+                }
+            ],
+            "id": "rstanarm2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "note": "StanCon 2018. 10-12 Jan 2018. Pacific Grove, CA, USA.",
+            "title": "Joint longitudinal and time-to-event models via Stan.",
+            "type": ""
+        },
+        {
+            "DOI": "10.21105/joss.03393",
+            "author": [
+                {
+                    "family": "Lüdecke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Patil",
+                    "given": "Indrajeet"
+                },
+                {
+                    "family": "Ben-Shachar",
+                    "given": "Mattan S."
+                },
+                {
+                    "family": "Wiernik",
+                    "given": "Brenton M."
+                },
+                {
+                    "family": "Waggoner",
+                    "given": "Philip"
+                },
+                {
+                    "family": "Makowski",
+                    "given": "Dominique"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "see2021",
+            "issue": "64",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "3393",
+            "title": "see: An R package for visualizing statistical models",
+            "title-short": "see",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.18637/jss.v025.i03",
+            "ISSN": "1548-7660",
+            "author": [
+                {
+                    "family": "Hahsler",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Hornik",
+                    "given": "Kurt"
+                },
+                {
+                    "family": "Buchta",
+                    "given": "Christian"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "seriation2008",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "1-34",
+            "title": "Getting things in order: An introduction to the r package seriation",
+            "title-short": "Getting things in order",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
+            "DOI": "10.1016/j.ejor.2016.08.066",
+            "author": [
+                {
+                    "family": "Hahsler",
+                    "given": "Michael"
+                }
+            ],
+            "container-title": "European Journal of Operational Research",
+            "id": "seriation2017",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "133-143",
+            "title": "An experimental comparison of seriation methods for one-mode two-way data",
+            "type": "article-journal",
+            "volume": "257"
+        },
+        {
+            "DOI": "10.1111/2041-210X.12504",
+            "URL": "https://CRAN.R-project.org/package=simr",
+            "author": [
+                {
+                    "family": "Green",
+                    "given": "Peter"
+                },
+                {
+                    "family": "MacLeod",
+                    "given": "Catriona J."
+                }
+            ],
+            "container-title": "Methods in Ecology and Evolution",
+            "id": "simr2016",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "493-498",
+            "title": "Simr: An r package for power analysis of generalised linear mixed models by simulation",
+            "title-short": "Simr",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "URL": "https://www.tidymodels.org",
+            "author": [
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                }
+            ],
+            "id": "tidymodels2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "title": "Tidymodels: A collection of packages for modeling and machine learning using tidyverse principles.",
+            "title-short": "Tidymodels",
+            "type": "book"
+        },
+        {
+            "DOI": "10.21105/joss.01686",
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Averick",
+                    "given": "Mara"
+                },
+                {
+                    "family": "Bryan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                },
+                {
+                    "family": "McGowan",
+                    "given": "Lucy D’Agostino"
+                },
+                {
+                    "family": "François",
+                    "given": "Romain"
+                },
+                {
+                    "family": "Grolemund",
+                    "given": "Garrett"
+                },
+                {
+                    "family": "Hayes",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Lionel"
+                },
+                {
+                    "family": "Hester",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas Lin"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Evan"
+                },
+                {
+                    "family": "Bache",
+                    "given": "Stephan Milton"
+                },
+                {
+                    "family": "Müller",
+                    "given": "Kirill"
+                },
+                {
+                    "family": "Ooms",
+                    "given": "Jeroen"
+                },
+                {
+                    "family": "Robinson",
+                    "given": "David"
+                },
+                {
+                    "family": "Seidel",
+                    "given": "Dana Paige"
+                },
+                {
+                    "family": "Spinu",
+                    "given": "Vitalie"
+                },
+                {
+                    "family": "Takahashi",
+                    "given": "Kohske"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                },
+                {
+                    "family": "Wilke",
+                    "given": "Claus"
+                },
+                {
+                    "family": "Woo",
+                    "given": "Kara"
+                },
+                {
+                    "family": "Yutani",
+                    "given": "Hiroaki"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "id": "tidyverse2019",
+            "issue": "43",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "1686",
+            "title": "Welcome to the tidyverse",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.5281/zenodo.4679423",
+            "URL": "https://sjmgarnier.github.io/viridis/",
+            "author": [
+                {
+                    "literal": "Garnier"
+                },
+                {
+                    "literal": "Simon"
+                },
+                {
+                    "literal": "Ross"
+                },
+                {
+                    "literal": "Noam"
+                },
+                {
+                    "literal": "Rudis"
+                },
+                {
+                    "literal": "Robert"
+                },
+                {
+                    "literal": "Camargo"
+                },
+                {
+                    "family": "Pedro",
+                    "given": "Antônio"
+                },
+                {
+                    "literal": "Sciaini"
+                },
+                {
+                    "literal": "Marco"
+                },
+                {
+                    "literal": "Scherer"
+                },
+                {
+                    "literal": "Cédric"
+                }
+            ],
+            "id": "viridis2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "viridis package version 0.6.5",
+            "title": "viridis(Lite) - colorblind-friendly color maps for r",
+            "type": "book"
+        },
+        {
+            "DOI": "10.5281/zenodo.4678327",
+            "URL": "https://sjmgarnier.github.io/viridis/",
+            "author": [
+                {
+                    "literal": "Garnier"
+                },
+                {
+                    "literal": "Simon"
+                },
+                {
+                    "literal": "Ross"
+                },
+                {
+                    "literal": "Noam"
+                },
+                {
+                    "literal": "Rudis"
+                },
+                {
+                    "literal": "Robert"
+                },
+                {
+                    "literal": "Camargo"
+                },
+                {
+                    "family": "Pedro",
+                    "given": "Antônio"
+                },
+                {
+                    "literal": "Sciaini"
+                },
+                {
+                    "literal": "Marco"
+                },
+                {
+                    "literal": "Scherer"
+                },
+                {
+                    "literal": "Cédric"
+                }
+            ],
+            "id": "viridisLite2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "viridisLite package version 0.4.2",
+            "title": "viridis(Lite) - colorblind-friendly color maps for r",
+            "type": "book"
+        }
+    ],
+    "project_biblios": [
+        "bib-files/references.bib",
+        "bib-files/packages.bib"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "0F9614B3",
+    "path": "~/GitHub/my-template/template.qmd",
+    "project_path": "template.qmd",
+    "type": "quarto_markdown",
+    "hash": "1143259371",
+    "contents": "",
+    "dirty": false,
+    "created": 1717591732685.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "165,12",
+        "scrollLine": "139",
+        "last_setup_crc32": "c1a61c985203178"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717593959,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717594018222,
+    "read_only": false,
+    "read_only_alternatives": []
+}

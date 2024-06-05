@@ -1,0 +1,202 @@
+# ═══ Project-wide settings for rendering ══════════════════════════════════════
+
+# format specific
+format:
+  html:
+    embed-resources: true
+    theme: 
+      dark: darkly
+      light: flatly
+    fontsize: "medium"
+    # Montserrat font
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    mainfont: Montserrat
+    lightbox: true
+    code-fold: false
+    code-annotations: hover
+  # ─── alternative formats ───
+  # docx: default
+  # jats: default # only for manuscripts
+  
+  # PDF option 1 - see https://github.com/quarto-journals/elsevier
+  # elsevier-pdf:
+  #   journal:
+  #     cite-style: authoryear
+  #   include-in-header:
+  #     text: |
+  #       \newpageafter{abstract}
+  
+  # PDF option 2 - I created this one for my Msc thesis
+  # pdf:
+  #   pdf-engine: pdflatex
+  #   documentclass: article
+  #   # table of contents
+  #   toc: true
+  #   number-sections: true
+  #   number-depth: 3
+  #   # text formatting
+  #   fontsize: 12pt
+  #   linestretch: 1.5
+  #   geometry: margin=1in
+  #   indent: true
+  #   # code reading options
+  #   echo: false
+  #   warning: false
+  #   error: false
+  #   message: false
+  #   # figure default positioning
+  #   fig-align: center
+  #   fig-cap-location: bottom
+  #   # fig-height: 8
+  #   # fig-width: 10
+  #   fig-pos: "h"
+  #   # captions
+  #   cap-location: bottom
+  #   tbl-cap-location: bottom
+  #   # links
+  #   links-as-notes: true
+  #   link-citations: true
+  #   # style (notably bibliography)
+  #   csl: apa.csl
+  #   # language
+  #   lang: fr
+  #   langid: french
+  #   # keeping tex if necessary
+  #   keep-tex: true
+
+# code reading options
+execute:
+  warning: false
+  error: false
+  message: false
+
+# table of contents
+toc: true
+toc-location: right
+toc-depth: 2
+toc-expand: 1
+number-sections: true
+number-depth: 2
+
+# setting for proper numbering of sections
+crossref:
+  chapters: true
+
+# figures and tables
+fig-align: center
+fig-asp: 0.618
+fig-format: svg
+cap-location: top
+fig-cap-location: bottom
+tbl-cap-location: margin
+
+
+# ─── YAML project template for my thesis ───
+# project:
+#   type: book
+#   preview:
+#     browser: true
+# 
+# book:
+#   title: "Profil cognitif des aphantasiques : étude exploratoire des stratégies alternatives spatiales et abstraites"
+#   author: "Maël Delem"
+#   date: 2023-10-02
+#   date-format: "D/MM/YYYY"
+#   chapters:
+#     - index.qmd
+#     - ch1-introduction.qmd
+#     - ch2-experiment.qmd
+#     - ch3-discussion.qmd
+#     - references.qmd
+#   appendices: 
+#     - ch99-annexes.qmd
+
+# format:
+#   pdf:
+#     documentclass: report
+#     filters: [remove_title.lua]
+#     # text formatting
+#     fontsize: 12pt
+#     linestretch: 1.5
+#     geometry: margin=1in
+#     indent: yes
+#     fig-pos: "h"
+#     # links
+#     links-as-notes: true
+#     link-citations: true
+#     # style (notably bibliography)
+#     csl: apa.csl
+#     # title page
+#     include-in-header:
+#       - text: |
+#           \usepackage{fancyhdr}
+#           \usepackage{wrapfig}
+#           \usepackage{floatflt}
+#           \pagestyle{fancy}
+#           \fancyhead{}
+#           \fancyhead[R]{Profil cognitif des aphantasiques}
+#           \renewcommand{\topfraction}{.85}
+#           \renewcommand{\bottomfraction}{.7}
+#           \renewcommand{\textfraction}{.15}
+#           \renewcommand{\floatpagefraction}{.66}
+#           \setcounter{topnumber}{3}
+#           \setcounter{bottomnumber}{3}
+#           \setcounter{totalnumber}{4}
+#           \usepackage[font=footnotesize,labelfont=bf, textfont=it]{caption}
+#           \usepackage{hyperref}
+#           \usepackage[all]{nowidow}
+#           \usepackage{pdflscape}
+#           \newcommand{\blandscape}{\begin{landscape}}
+#           \newcommand{\elandscape}{\end{landscape}}
+#     include-before-body:
+#       - text: |
+#           \begin{titlepage}
+#           \begin{center}
+#           \vspace*{1cm}
+#           
+#           \Huge
+#           Profil cognitif des aphantasiques :\\ étude exploratoire des stratégies alternatives spatiales et abstraites
+#           
+#           \vspace{0.5cm}
+#           \normalsize
+#           Mémoire de Master 2\\ 
+#           \Large
+#           Sciences Cognitives\\ 
+#           \vspace{0.1cm}
+#           \normalsize
+#           Parcours Sciences Cognitives Fondamentales et Appliquées
+#               
+#           \vfill
+#           
+#           \normalsize
+#           Présenté par :\\ 
+#           \large
+#           \textbf{Maël Delem}\\ 
+#           
+#           \vspace{0.3cm} 
+#           
+#           \normalsize
+#           Réalisé sous la direction de :\\
+#           \large
+#           \textbf{Gaën Plancher}\\ 
+#           
+#           \vspace{0.7cm}
+#           
+#           \large        
+#           Laboratoire d'Étude des Mécanismes Cognitifs (EA 3082)\\
+#           
+#           \begin{figure}[H]
+#             \centering
+#             \includegraphics[width=0.3\textwidth]{./logo/logo.png}
+#             \includegraphics[width=0.3\textwidth]{./logo/logo_emc.png}
+#           \end{figure}
+#           
+#           05/06/2023
+#               
+#           \end{center}
+#           \end{titlepage}
+#           
+#           \newpage{}

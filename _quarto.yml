@@ -1,0 +1,88 @@
+project:
+  type: default
+  output-dir: _output
+  
+author: 
+  - name: Maël Delem
+    orcid: 0009-0005-8518-1991
+    email: mael.delem@univ-lyon2.fr
+    url: https://scholar.google.com/citations?user=Oiv7mtQAAAAJ&hl=fr&oi=ao
+date-format: "D/MM/YYYY"
+date-modified: last-modified
+
+# code reading options
+execute:
+  warning: false
+  error: false
+  message: false
+
+# table of contents
+toc: true
+number-sections: true
+
+# setting for proper section numbering
+crossref:
+  chapters: true
+
+# figures and tables
+fig-align: center
+fig-asp: 0.618
+fig-format: svg
+cap-location: top
+fig-cap-location: bottom
+tbl-cap-location: margin
+
+# format specific options
+format:
+
+  # ─── HTML ───
+  html:
+    # self-contained HTML render
+    embed-resources: true
+    # styling options
+    theme: 
+      dark: darkly
+      light: flatly
+    css: "_extensions/html/custom.css"
+    # Montserrat font and options
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    mainfont: Montserrat
+    fontsize: "medium"
+    # clickable figures
+    lightbox: true
+    # code folding for clarity
+    code-fold: true
+    code-annotations: hover
+    # specific HTML TOC options
+    toc-location: right
+    toc-depth: 2
+    toc-expand: 1
+    number-depth: 2
+  
+  # ─── Word ───
+  docx: 
+    reference-doc: "_extensions/docx/custom-reference-doc.docx"
+    echo: false
+  
+  # ─── Elsevier PDF ───
+  # see https://github.com/quarto-journals/elsevier
+  elsevier-pdf:
+    echo: false
+    journal:
+      cite-style: authoryear    
+    # the option to include a new page after the abstract is commented out
+    # the second one is to include a new page after the table of contents
+    include-in-header:
+      text: |
+        % \newpageafter{abstract}
+        \let\tableofcontentsORIG\tableofcontents
+        \renewcommand\tableofcontents{\tableofcontentsORIG\clearpage}
+
+bibliography: [bib-files/references.bib, bib-files/packages.bib]
+csl: apa.csl
+## option to add uncited works to the references section
+# nocite: |
+#   @*
