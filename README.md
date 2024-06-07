@@ -2,7 +2,7 @@
 
 This is a custom Quarto project directory template that gathers my favourite extensions, options, tips, tricks, tweaks and cool feats that I used in my personal projects thus far. 
 
-Some structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template)
+Some structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template).
 
 > For a good reproducible analysis in R, don't forget to use the `renv` package with your project with `renv::init()` as soon as you start it. It will create a local environment for packages specifically for your project, and a `renv.lock` "lockfile" that contains a trace of the packages you used and their versions at the time you used them.
 > The useful functions are:
