@@ -10,7 +10,8 @@ author:
     url: https://scholar.google.com/citations?user=Oiv7mtQAAAAJ&hl=fr&oi=ao
 
 # ─── Common options ───
-date-format: "D/MM/YYYY"
+date: "08/06/2024"   # add the publication date if you want to
+date-format: "DD/MM/YYYY"
 date-modified: last-modified
 
 bibliography:
@@ -34,7 +35,8 @@ format:
 
   html:
     embed-resources: true  # self-contained HTML rendering
-    
+    format-links: false     # no links to other formats
+
     # styling
     theme: 
       dark: darkly
@@ -66,18 +68,18 @@ format:
     echo: false
 
   # PDF - see https://github.com/quarto-journals/elsevier
-  elsevier-pdf:
-    toc: false
-    echo: false
-    journal:
-      cite-style: authoryear    
-    # the option to include a new page after the abstract is commented out
-    # the second one is to include a new page after the table of contents
-    include-in-header:
-      text: |
-        % \newpageafter{abstract}
-        \let\tableofcontentsORIG\tableofcontents
-        \renewcommand\tableofcontents{\tableofcontentsORIG\clearpage}
+  # elsevier-pdf:
+  #   toc: false
+  #   echo: false
+  #   journal:
+  #     cite-style: authoryear    
+  #   # the option to include a new page after the abstract is commented out
+  #   # the second one is to include a new page after the table of contents
+  #   include-in-header:
+  #     text: |
+  #       % \newpageafter{abstract}
+  #       \let\tableofcontentsORIG\tableofcontents
+  #       \renewcommand\tableofcontents{\tableofcontentsORIG\clearpage}
 
 # extension to add a block with authors in .docx format
 filters:

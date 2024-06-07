@@ -2,49 +2,25 @@
 title: Data Analysis Notebook
 ---
 
-::: {.callout-note collapse="true"}
-# Packages and setup
-
-My usual set-up:
-
 ```{r}
 #| label: setup
-#| code-fold: false
+#| include: false
 
-library(easystats)
-library(tidyverse)
+# don't forget to use `renv` for a reproducible environment!
+library(here)
+source(here("scripts/_setup.R"))
+```
 
-# source("scripts/functions.R") # if you have a script with custom functions
-
-# ─── Global cosmetic theme ───────────
-theme_set(theme_modern(base_size = 14)) # from see in easystats
-
-# setting my favourite palettes as ggplot2 defaults
-options( 
-  ggplot2.discrete.colour   = scale_colour_okabeito,
-  ggplot2.discrete.fill     = scale_fill_okabeito,
-  ggplot2.continuous.colour = scale_colour_viridis_c,
-  ggplot2.continuous.fill   = scale_fill_viridis_c
-)
-
-# ─── Fixing a seed for reproducibility ───
-set.seed(14051998)
-
-# ─── Adding all packages' citations to a .bib ───
-knitr::write_bib(c(.packages()), file = "bibliography/packages.bib")
+:::: {.content-visible when-format="html"}
+::: {.callout-note collapse="true"}
+# Packages and setup
+```r
+{{< include ../scripts/_setup.R >}}
 ```
 :::
+::::
 
 The data analysis journey starts here.
-
-
-```{r}
-# a + 3
-# a
-```
-
-
-
 
 
 
