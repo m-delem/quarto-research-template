@@ -9,6 +9,7 @@ My usual set-up:
 
 ```{r}
 #| label: setup
+#| code-fold: false
 
 library(easystats)
 library(tidyverse)

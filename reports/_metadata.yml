@@ -1,13 +1,16 @@
+echo: false
+
 format:
+  html: default
 
   # Word
   docx: 
-    reference-doc: "_extensions/docx/custom-reference-doc.docx"
-    echo: false
+    reference-doc: "../_extensions/docx/custom-reference-doc.docx"
+    toc: false
 
   # PDF - see https://github.com/quarto-journals/elsevier
   elsevier-pdf:
-    echo: false
+    toc: false
     journal:
       cite-style: authoryear    
     # the option to include a new page after the abstract is commented out
@@ -17,3 +20,7 @@ format:
         % \newpageafter{abstract}
         \let\tableofcontentsORIG\tableofcontents
         \renewcommand\tableofcontents{\tableofcontentsORIG\clearpage}
+
+# extension to add a block with authors in .docx format
+filters:
+  - authors-block

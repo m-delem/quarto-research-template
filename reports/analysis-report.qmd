@@ -1,0 +1,5 @@
+---
+title: Analysis Report
+---
+
+The clean report comes here. This is the one that mostly does not contain any code. It should silently fetch the objects created in the notebooks and the scripts and weave them into the narrative of the analytic process.

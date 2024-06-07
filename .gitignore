@@ -9,6 +9,8 @@
 *.ent
 *.log
 *.spl
+*.bst
+*.cls
 # quarto
 /.quarto/
 _products

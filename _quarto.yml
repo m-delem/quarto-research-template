@@ -29,10 +29,6 @@ number-sections: true
 crossref:
   chapters: true
 
-# extension to add a block with authors in .docx format
-filters:
-  - authors-block
-
 # ─── Format-specific options ───
 format:
 
