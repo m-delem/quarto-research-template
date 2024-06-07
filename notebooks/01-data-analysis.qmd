@@ -37,6 +37,25 @@ knitr::write_bib(c(.packages()), file = "bibliography/packages.bib")
 
 The data analysis journey starts here.
 
+
+```{r}
+# a + 3
+# a
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 &nbsp;
 &nbsp;
 &nbsp;

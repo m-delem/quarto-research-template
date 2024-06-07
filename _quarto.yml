@@ -59,3 +59,26 @@ format:
     toc-expand: 1
     number-depth: 2
 
+  # Word
+  docx: 
+    reference-doc: "scripts/utils/docx/custom-reference-doc.docx"
+    toc: false
+    echo: false
+
+  # PDF - see https://github.com/quarto-journals/elsevier
+  elsevier-pdf:
+    toc: false
+    echo: false
+    journal:
+      cite-style: authoryear    
+    # the option to include a new page after the abstract is commented out
+    # the second one is to include a new page after the table of contents
+    include-in-header:
+      text: |
+        % \newpageafter{abstract}
+        \let\tableofcontentsORIG\tableofcontents
+        \renewcommand\tableofcontents{\tableofcontentsORIG\clearpage}
+
+# extension to add a block with authors in .docx format
+filters:
+  - authors-block
