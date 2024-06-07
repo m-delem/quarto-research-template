@@ -4,8 +4,6 @@ This is a custom Quarto project directory template that gathers my favourite ext
 
 Some structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template)
 
-> ℹ️
-> 
 > For a good reproducible analysis in R, don't forget to use the `renv` package with your project with `renv::init()` as soon as you start it. It will create a local environment for packages specifically for your project, and a `renv.lock` "lockfile" that contains a trace of the packages you used and their versions at the time you used them.
 > The useful functions are:
 > - `renv::install("package")` installs a package that was not in your environment or lockfile yet.
@@ -13,7 +11,6 @@ Some structures in this template were inspired by [this research template by Aar
 > - `renv::snapshot()` saves the current state of your packages in the lockfile.
 > - `renv::clean()` removes all the packages not used from the lockfile.
 > - `renv::restore()` restores the packages in the lockfile: this is typically what you want to do if you just cloned a repo that already has a lockfile but that you never used locally (like that of a collaborator).
-
 > Then we're good to go! We can load our packages everywhere with `library()`.
 
 The heart of a Quarto project is the `_quarto.yml` file, which contains all the project options:
