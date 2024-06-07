@@ -1,16 +1,25 @@
 # My personal Quarto template
 
-This is a custom Quarto project directory template that gathers my favourite tips, tricks, tweaks and cool feats that I used in my personal projects thus far. 
+This is a custom Quarto project directory template that gathers my favourite extensions, options, tips, tricks, tweaks and cool feats that I used in my personal projects thus far. 
 
+Some structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template)
 
+> ℹ️
+> For a good reproducible analysis in R, don't forget to use the `renv` package with your project with `renv::init()` as soon as you start it. It will create a local environment for packages specifically for your project, and a `renv.lock` "lockfile" that contains a trace of the packages you used and their versions at the time you used them.
+> The useful functions are:
+> - `renv::install("package")` installs a package that was not in your environment or lockfile yet.
+> - `renv::status()` checks the status of your local packages and your lockfile.
+> - `renv::snapshot()` saves the current state of your packages in the lockfile.
+> - `renv::clean()` removes all the packages not used from the lockfile.
+> - `renv::restore()` restores the packages in the lockfile: this is typically what you want to do if you just cloned a repo that already has a lockfile but that you never used locally (like that of a collaborator).
 
-Then the heart of all of this is the `_quarto.yml` file, which contains all the project options:
+> Then we're good to go! We can load our packages everywhere with `library()`.
+
+The heart of a Quarto project is the `_quarto.yml` file, which contains all the project options:
 
 - No errors, warnings or messages are rendered
 - A table of contents is created and sections are numbered
-- Alignment and ratio of figures are defined, along with several caption positioning options
-- Two bibliography files are ready in `bib-files/`, `references.bib` which is usually tied to the Quarto Visual Mode "Insert Citation" command, and `packages.bib`, which is created by the R function `knitr::write_bib` and makes it more convenient to cite the packages we use.
-- The bibliography uses the American Psychological Association norms through the `apa.csl` file.
+- Two bibliography files are ready in `bibliography/`, `references.bib` which is usually tied to the Quarto Visual Mode "Insert Citation" command, and `packages.bib`, which is created by the R function `knitr::write_bib` and makes it more convenient to cite the packages we use. The bibliography then uses the American Psychological Association norms through the `apa.csl` file.
 
 It also sets everything up for rendering in three formats, with format-specific options:
 
