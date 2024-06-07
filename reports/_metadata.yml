@@ -5,7 +5,7 @@ format:
 
   # Word
   docx: 
-    reference-doc: "../_extensions/docx/custom-reference-doc.docx"
+    reference-doc: "../scripts/utils/docx/custom-reference-doc.docx"
     toc: false
 
   # PDF - see https://github.com/quarto-journals/elsevier

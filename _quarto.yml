@@ -39,7 +39,7 @@ format:
     theme: 
       dark: darkly
       light: flatly
-    css: "_extensions/html/custom.css"
+    css: "scripts/utils/html/custom.css"
     # importing Montserrat font
     header-includes: |
       <link rel="preconnect" href="https://fonts.googleapis.com">
