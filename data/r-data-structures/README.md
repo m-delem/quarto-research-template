@@ -1,0 +1,1 @@
+This directory contains `.rds` files, a file type that can contain R objects such as tibbles, models, etc. 
