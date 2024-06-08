@@ -10,7 +10,7 @@ author:
     url: https://scholar.google.com/citations?user=Oiv7mtQAAAAJ&hl=fr&oi=ao
 
 # ─── Common options ───
-date: "08/06/2024"   # add the publication date if you want to
+# date: "08/06/2024"   # add the publication date if you want to
 date-format: "DD/MM/YYYY"
 date-modified: last-modified
 
