@@ -11,6 +11,8 @@ library(here)
 source(here("scripts/_setup.R"))
 ```
 
+{{< include ../scripts/_chunks.qmd >}}
+
 :::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 # Packages and setup

@@ -1,0 +1,5 @@
+---
+echo: false
+---
+
+<!-- Use this document to put big code chunks and remove clutter from the main notebooks. It is included with a shortcode at the top the notebooks, but it needs to be without output: instead, "call" the chunks from this document by adding the `ref-label:` option in notebook chunks. This option will use all the content from the chunk that was referenced, but with the new options. This way, you can display selected chunks retrieved from the present document. -->
