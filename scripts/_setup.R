@@ -1,5 +1,5 @@
 library(here)
-library(easystats)
+library(see)
 library(tidyverse)
 
 source(here("scripts/_functions.R")) # custom functions shared across scripts
