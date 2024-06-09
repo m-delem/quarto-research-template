@@ -1,5 +1,6 @@
 library(here)
 library(see)
+library(report)
 library(tidyverse)
 
 source(here("scripts/_functions.R")) # custom functions shared across scripts
