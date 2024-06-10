@@ -1,0 +1,1 @@
+This directory contains all the figures that have to be saved, i.e. that are distinct from the figure outputs from the code.
