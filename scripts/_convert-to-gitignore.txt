@@ -1,4 +1,4 @@
-# this is a "backup" .gitignore in case it doesn't clone with the template
+# this is a "backup" of the files to ignore because the .gitignore is not cloned with the template
 .Rproj.user
 .Rhistory
 .RData

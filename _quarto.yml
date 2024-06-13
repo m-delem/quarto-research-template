@@ -41,7 +41,7 @@ format:
     theme: 
       dark: darkly
       light: flatly
-    css: "scripts/utils/html/custom.css"
+    css: "utils/html/custom.css"
     # importing Montserrat font
     header-includes: |
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +63,7 @@ format:
 
   # Word
   docx: 
-    reference-doc: "scripts/utils/docx/custom-reference-doc.docx"
+    reference-doc: "utils/docx/custom-reference-doc.docx"
     toc: false
     echo: false
 
