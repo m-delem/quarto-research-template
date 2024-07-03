@@ -4,6 +4,7 @@ This is a custom Quarto project directory template that gathers my favourite ext
 
 Some of the structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template). The `data/` folder contains three subfolders, `data_raw`, `data_transformed` and `r-data-structures` to host the data at different stages of processing. The first is dedicated to raw data, that should never be modified in place; instead, the processed data in all its forms should be stored in the second subfolder. The third is dedicated to `.rds` files, a file format that can contain R-specific objects such as models or tibbles. The `scripts` folder will contain all raw R scripts. It comes by default with a `functions.R` script to host user-defined functions to be used in other scripts.
 
+> [!TIP]
 > For a good reproducible analysis in R, don't forget to use the `renv` package with your project with `renv::init()` as soon as you start it. It will create a local environment for packages specifically for your project, and a `renv.lock` "lockfile" that contains a trace of the packages you used and their versions at the time you used them.
 > The useful functions are:
 > - `renv::install("package")` installs a package that was not in your environment or lockfile yet.
