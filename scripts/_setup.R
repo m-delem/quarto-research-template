@@ -1,7 +1,13 @@
-library(here)
-library(see)
-library(report)
-library(tidyverse)
+# install.packages("librarian") # to install/load packages with a single call
+library(librarian)
+
+shelf(
+  here,
+  see,
+  report,
+  labelled,
+  tidyverse
+)
 
 source(here("scripts/_functions.R")) # custom functions shared across scripts
 
