@@ -6,12 +6,6 @@ title: Data Tidying Notebook
 #| label: setup
 #| include: false
 
-# don't forget to use `renv` for a reproducible environment!
-# install.packages("renv")
-# library("renv")
-# renv::init()
-# ... Or, if renv is already initialized:
-# renv::restore()
 library(here)
 source(here("scripts/_setup.R"))
 ```

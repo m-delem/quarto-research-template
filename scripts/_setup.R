@@ -1,12 +1,19 @@
-# install.packages("librarian") # to install/load packages with a single call
-library(librarian)
+# don't forget to use `renv` for a reproducible environment!
+# install.packages("renv")
+# library("renv")
+# renv::init() was used to create the renv.lock file in this template
+# Now each time you open the project, you can restore the environment with:
+renv::restore()
 
+# librarian allows to check/install/load packages with a single call
+if (!require("librarian")) install.packages("librarian")
+library(librarian)
 shelf(
-  here,
-  see,
-  report,
-  labelled,
-  tidyverse
+  here,      # setting the root directory
+  see,       # theme_modern and okabeito
+  report,    # reporting various info
+  labelled,  # labelled data
+  tidyverse  # modern R ecosystem
 )
 
 source(here("scripts/_functions.R")) # custom functions shared across scripts
