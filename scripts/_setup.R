@@ -1,11 +1,15 @@
 
-# renv --------------------------------------------------------------------
+# Renv --------------------------------------------------------------------
 
 # Don't forget to use `renv` for a reproducible environment!
-# install.packages("renv")
-# library("renv")
-# renv::init() was used to create the renv.lock file in this template
-# Now each time you open the project, you can restore the environment with:
+# see https://rstudio.github.io/renv/articles/renv.html for more details
+
+# install.packages("renv")  # if you don't have it yet
+# library("renv")           # same as above
+
+# renv::init() was used to create the renv.lock file in this template, now the
+# project only needs to be activated and restored each time you start working
+renv::activate()
 renv::restore()
 
 
