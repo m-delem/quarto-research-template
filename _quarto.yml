@@ -13,7 +13,7 @@ author:
       name: Study of Cognitive Mechanisms (EMC) Laboratory
       url: https://emc.univ-lyon2.fr
 
-# ─── Common options ───
+# --- Common options ---
 # date: "08/06/2024"   # add the publication date if you want to
 date-format: "DD/MM/YYYY"
 date-modified: last-modified
@@ -34,7 +34,7 @@ number-sections: true
 crossref:
   chapters: true
 
-# ─── Format-specific options ───
+# --- Format-specific options ---
 format:
 
   html:

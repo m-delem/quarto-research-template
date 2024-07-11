@@ -7,9 +7,11 @@
 # install.packages("renv")  # if you don't have it yet
 # library("renv")           # same as above
 
-# renv::init() was used to create the renv.lock file in this template, now the
-# project only needs to be activated and restored each time you start working
-renv::activate()
+# renv::init() has already been used to create the renv.lock file (the file that
+# contains the exact details of the packages you used) in this template, so now 
+# the project only needs to be restored each time you start working. You will
+# be asked to install the packages that I added down below upon running this 
+# script, but you change this to suit your needs.
 renv::restore()
 
 
@@ -19,7 +21,7 @@ renv::restore()
 # if (!require("pacman")) install.packages("pacman") # already in renv.lock
 library("pacman")
 
-# package names
+# packages to load (and install if needed) -------------------------------
 pacman::p_load(
   here,      # easy file paths
   see,       # theme_modern and okabeito palette
@@ -46,8 +48,9 @@ options(
 )
 
 
-# Fixing a seed for reproducibility ────────────────────────────────────────
+# Fixing a seed for reproducibility ---------------------------------------
 set.seed(14051998)
+
 
 # Adding all packages' citations to a .bib --------------------------------
 knitr::write_bib(c(.packages()), file = here("bibliography/packages.bib"))
