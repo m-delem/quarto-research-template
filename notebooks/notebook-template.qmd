@@ -1,5 +1,5 @@
 ---
-title: Data Analysis Notebook
+title: Data Analysis Notebook Template
 ---
 
 ```{r}
@@ -21,15 +21,7 @@ source(here("scripts/_setup.R"))
 :::
 ::::
 
-The data analysis journey starts here.
-
-
-
-
-
-
-
-
+Tip: find a consistent and clear naming scheme for your folders, scripts, functions, and variables, and stick to it. This will make your life easier when you need to find something later on.
 
 
 
@@ -48,6 +40,5 @@ cat("Packages used:")
 report_packages(session = sessionInfo())
 cat("═════════════════════════════════════════════════════════════════════════")
 ```
-
 
 
