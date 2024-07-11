@@ -2,17 +2,22 @@
 
 This is a custom Quarto project directory template that gathers my favourite extensions, options, tips, tricks, tweaks and cool feats that I used in my personal projects thus far. 
 
-Some of the structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template). The `data/` folder contains three subfolders, `data_raw`, `data_transformed` and `r-data-structures` to host the data at different stages of processing. The first is dedicated to raw data, that should never be modified in place; instead, the processed data in all its forms should be stored in the second subfolder. The third is dedicated to `.rds` files, a file format that can contain R-specific objects such as models or tibbles. The `scripts` folder will contain all raw R scripts. It comes by default with a `functions.R` script to host user-defined functions to be used in other scripts.
+Some of the structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template). The `data/` folder contains three subfolders, `data_raw`, `data_transformed` and `r-data-structures` to host the data at different stages of processing. The first is dedicated to raw data, that should never be modified in place; instead, the processed data in all its forms should be stored in the second subfolder. The third is dedicated to `.rds` files, a file format that can contain R-specific objects such as models or tibbles. The `scripts` folder will contain all raw R scripts. It comes by default with a `_setup.R` to host the common setup operations shared across scripts. `_functions.R` script hosts user-defined functions to be used in other scripts, and is loaded automatically by `_setup.R`.
 
 > [!TIP]
-> For a good reproducible analysis in R, don't forget to use the `renv` package with your project with `renv::init()` as soon as you start it. It will create a local environment for packages specifically for your project, and a `renv.lock` "lockfile" that contains a trace of the packages you used and their versions at the time you used them.
-> The useful functions are:
-> - `renv::install("package")` installs a package that was not in your environment or lockfile yet.
-> - `renv::status()` checks the status of your local packages and your lockfile.
-> - `renv::snapshot()` saves the current state of your packages in the lockfile.
-> - `renv::clean()` removes all the packages not used from the lockfile.
-> - `renv::restore()` restores the packages in the lockfile: this is typically what you want to do if you just cloned a repo that already has a lockfile but that you never used locally (like that of a collaborator).
-> Then we're good to go! We can load our packages everywhere with `library()`.
+> For a good reproducible analysis in R, don't forget to use the `renv` package with your project. The usual workflow is to initialise the `renv` environment with `renv::init()` as soon as you start working on the project. It will create a local environment for packages specifically for your project, and a `renv.lock` "lockfile" that contains a trace of the packages you used and their versions at the time you used them. Then you would use `renv::install("package")` installs a package that was not in your environment or lockfile yet. When you're done and everything is stable, you can save the state of your environment with `renv::snapshot()`. This will update the lockfile with the current state of your packages. Then, when you share your project with someone else, they can use `renv::restore()` to install the packages you used in the state you used them.
+> ***BUT!***
+> This template has already done a part of the job for you. The `renv.lock` file is already there, and the `renv` environment is already initialised. You just have to run `renv::restore()` to install the packages already in the lockfile. 
+> ***BESIDES!***
+> This template uses the `pacman` package to manage packages. In a single function, it conveniently, checks, installs and loads all the packages you need. You will find this setup in the `scripts/_setup.R` file.
+> In the end, you only need to know a few operations for a good workflow:
+> - Use `renv::status()` when you start working to check the status of your local packages and your lockfile.
+> - Use `renv::restore()` if you need to install missing packages recorded in the lockfile.
+> - Add new packages in the `pacman::p_load()` function call in the `scripts/_setup.R` file as you work. Care to run the `scripts/_setup.R` file in all your other scripts with `source(here("scripts/_setup.R"))`.
+> - When you're done and everything is stable, use `renv::snapshot()` to save the state of your environment.
+> - As a bonus, use `renv::clean()` to remove all the packages not used from the lockfile.
+
+> Then we're good to go! We have a clean, reproducible, and well-organised project.
 
 The heart of a Quarto project is the `_quarto.yml` file, which contains all the project options for rendering documents:
 
