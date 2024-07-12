@@ -23,11 +23,12 @@ library("pacman")
 
 # packages to load (and install if needed) -------------------------------
 pacman::p_load(
-  here,      # easy file paths
-  see,       # theme_modern and okabeito palette
-  report,    # reporting various info 
-  labelled,  # labelled data
-  tidyverse  # modern R ecosystem
+  here,       # easy file paths
+  see,        # theme_modern and okabeito palette
+  report,     # reporting various info 
+  labelled,   # labelled data
+  reticulate, # python integration
+  tidyverse   # modern R ecosystem
 )
 
 
