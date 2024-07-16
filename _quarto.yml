@@ -14,8 +14,6 @@ author:
       url: https://emc.univ-lyon2.fr
 
 # --- Common options ---
-# date: "08/06/2024"   # add the publication date if you want to
-date-format: "DD/MM/YYYY"
 date-modified: last-modified
 
 bibliography:
