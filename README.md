@@ -1,6 +1,12 @@
 # My personal Quarto template
 
-This is a custom Quarto project directory template that gathers my favourite extensions, options, tips, tricks, tweaks and cool feats that I used in my personal projects thus far. To use this template, open the terminal (you can also find one in a tab next to the console in RStudio), and type:
+This is a custom Quarto project directory template for scientific research that gathers my favourite extensions, options, tips, tricks, tweaks and cool feats that I used in my personal projects thus far. 
+
+## How to use
+
+First install [Quarto](https://quarto.org/), which is an amazing open-source scientific and technical publishing system. It is very well integrated within [RStudio](https://posit.co/products/open-source/rstudio/), but can also be used seamlessly in [Visual Studio Code](https://code.visualstudio.com/) if you are already accustomed to the latter.
+
+To use this template (i.e., copy the folder on your computer), open the terminal (you can find one in a tab next to the console in RStudio), and type:
 
 ```
 quarto use template m-delem/my-quarto-template
