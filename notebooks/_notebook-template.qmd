@@ -1,5 +1,5 @@
 ---
-title: Data Analysis Notebook Template
+title: Notebook Template
 ---
 
 ```{r}
@@ -25,20 +25,26 @@ Tip: find a consistent and clear naming scheme for your folders, scripts, functi
 
 
 
+:::: {.content-visible when-format="html"}
+
 &nbsp;
 &nbsp;
 &nbsp;
+
+::: {.callout-note collapse="true"}
+# Session information for reproducibility
 
 ```{r}
 #| label: session-information
 #| echo: false
 
 cat("═════════════════════════════════════════════════════════════════════════")
-cat("Session information for reproducibility:")
 report_system(session = sessionInfo())
 cat("Packages used:")
 report_packages(session = sessionInfo())
 cat("═════════════════════════════════════════════════════════════════════════")
 ```
+:::
+::::
 
 
