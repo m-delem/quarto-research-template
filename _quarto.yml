@@ -55,6 +55,7 @@ format:
     # interactive features
     lightbox: true          # clickable figures
     code-fold: true         # code folding for clarity
+    code-tools: true        # hide or show all code
     code-annotations: hover # show code annotations on hover
     
     # HTML-specific TOC options
