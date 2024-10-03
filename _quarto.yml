@@ -7,10 +7,13 @@ author:
   - name: Maël Delem
     orcid: 0009-0005-8518-1991
     email: mael.delem@univ-lyon2.fr
+    corresponding: true
     url: https://emc.univ-lyon2.fr/equipes/memoire-emotion-et-attention-mea/delem-mael
     affiliations:
     - id: emc
-      name: Study of Cognitive Mechanisms (EMC) Laboratory
+      name: Study of Cognitive Mechanisms (EMC) Laboratory, Université Lumière Lyon 2
+      city: Lyon
+      country: France
       url: https://emc.univ-lyon2.fr
 
 # --- Common options ---
@@ -69,6 +72,9 @@ format:
     reference-doc: "utils/docx/custom-reference-doc.docx"
     toc: false
     echo: false
+    # extension to add a block with authors in .docx format
+    filters:
+      - authors-block
 
   # PDF - see https://github.com/quarto-journals/elsevier
   # elsevier-pdf:
@@ -84,6 +90,4 @@ format:
   #       \let\tableofcontentsORIG\tableofcontents
   #       \renewcommand\tableofcontents{\tableofcontentsORIG\clearpage}
 
-# extension to add a block with authors in .docx format
-filters:
-  - authors-block
+
