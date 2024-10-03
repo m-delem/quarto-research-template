@@ -28,6 +28,7 @@ pacman::p_load(
   report,     # reporting various info 
   labelled,   # labelled data
   reticulate, # python integration
+  # Should remain last to avoid conflicts with other packages
   tidyverse   # modern R ecosystem
 )
 
