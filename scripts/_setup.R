@@ -30,6 +30,7 @@ pacman::p_load(
   labelled,   # labelled data
   reticulate, # python integration
   # Should remain last to avoid conflicts with other packages
+  quarto,     # quarto reports
   tidyverse   # modern R ecosystem
 )
 
