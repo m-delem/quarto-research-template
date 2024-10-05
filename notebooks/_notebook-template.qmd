@@ -32,7 +32,7 @@ Tip: find a consistent and clear naming scheme for your folders, scripts, functi
 &nbsp;
 
 ::: {.callout-note collapse="true"}
-# Session information for reproducibility
+# Session information
 
 ```{r}
 #| label: session-information

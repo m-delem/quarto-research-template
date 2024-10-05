@@ -21,7 +21,7 @@ renv::restore()
 # if (!require("pacman")) install.packages("pacman") # already in renv.lock
 library("pacman")
 
-# packages to load (and install if needed) -------------------------------
+# packages to load (and install if needed)
 pacman::p_load(
   here,       # easy file paths
   glue,       # string interpolation
@@ -33,11 +33,6 @@ pacman::p_load(
   quarto,     # quarto reports
   tidyverse   # modern R ecosystem
 )
-
-
-# Custom functions shared across scripts ----------------------------------
-source(here("scripts/_functions.R"))
-
 
 # Global cosmetic theme ---------------------------------------------------
 
