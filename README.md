@@ -2,7 +2,7 @@
 
 This is a custom Quarto project directory template for scientific research that gathers my favourite extensions, options, tips, tricks, tweaks and cool feats that I used in my personal projects thus far. 
 
-## How to use
+## Quick start guide
 
 First install [Quarto](https://quarto.org/), which is an amazing open-source scientific and technical publishing system. It is very well integrated within [RStudio](https://posit.co/products/open-source/rstudio/), but can also be used seamlessly in [Visual Studio Code](https://code.visualstudio.com/) if you are already accustomed to the latter.
 
@@ -14,20 +14,35 @@ quarto use template m-delem/my-quarto-template
 
 Then enter `Y` to trust the template, and specify the path of the folder you want to place your project into, e.g. `GitHub/my-project`. By default, the root is `~Users/Your-username/Documents/`.
 
-## Structure
+## Further details
+
+### Structure of the project
 
 Some of the structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template). 
+
 - `open-this-file-first.RProj` is the first file to click on to open the project in RStudio.
-- The `data/` folder contains three subfolders, `data_raw`, `data_transformed` and `r-data-structures` to host the data at different stages of processing. The first is dedicated to raw data, that should never be modified in place; instead, the processed data in all its forms should be stored in the second subfolder. The third is dedicated to `.rds` files, a file format that can contain R-specific objects such as models or tibbles.
-- The `scripts/` folder will contain all raw R scripts.
-    - It comes by default with a `_setup.R` file to host the common setup operations shared across scripts. This file should be loaded in all your other scripts and notebooks with `source(here("scripts/_setup.R"))`[^1].
+
+- The `data/` folder contains three subfolders, `data-raw`, `data-processed` and `r-data-structures` to host the data at different stages of processing: 
+    - The first is dedicated to raw data, that should never be modified in place.
+    - The processed data in all its forms should be stored in the second subfolder. 
+    - The third is dedicated to `.rds` files, a file format that can contain R-specific objects such as models or tibbles.
+
+- The `scripts/` folder will contain all raw R scripts. I added by default:
+    - A `_setup.R` script to host the common setup operations shared across scripts. This file should be loaded in all your other scripts and notebooks with `source(here("scripts/_setup.R"))`[^1].
     - `_functions.R` is meant to host your user-defined functions to be used in other scripts, and is loaded automatically by `_setup.R`.
-    - The `_chunks.qmd` notebook is very situational, but can be used to host big Quarto chunks that are re-used multiple times for the same purposes. For instance, you might want to display the same chunk with different options depending on the output format (e.g., HTML or PDF). You can do so without cluttering your notebook with copies of the same code by placing the original chunk in `_chunks.qmd` with a label, loading `scripts/_chunks.qmd` silently with `{{< include ../scripts/_chunks.qmd >}}`, and referencing the chunk twice with `ref-label:`, along with different options. This is a neat trick I learned from [mcanouil](https://github.com/mcanouil) in an obscure GitHub issues thread that I can't even find anymore.
+
+[^1]: The `here()` function from the eponymous package allows to specify that the working directory (WD) is the root project directory. This solves the issue of Quarto (.qmd) files automatically setting their current directory as the WD, which is problematic, for instance for those in the `notebooks/` folder.
+
 - The `notebooks/` folder contains Quarto `.qmd` notebooks with both code and text, which can be used either as working tools to record the analytic process for future use, or as complete reports for the final analyses and publications. A template with essential elements is included.
+
 - The `bibliography/` folder contains `.bib` files to host references.
+
 - The template comes with a `figures/` folder for visual outputs.
+
 - Rendered notebooks (in HTML, Word or PDF format) are created automatically in the `_output/` folder (unless instructed otherwise).
+
 - The `_extensions/` and `utils/` folders contain utility files for rendering.
+
 - More down below on the `renv/` folder and `renv.lock` file.
 
 ## Reproducible R environment with `renv`
@@ -57,8 +72,6 @@ In the end, you only need to know a few operations for a good workflow:
  - Repeat this little routine when you come back to the project.
    
  Then we're good to go! We have everything set for a clean, reproducible, and well-organised project. If we share/submit/publish our results, we could simply (*clean up a bit and*) put this project folder in an archive, upload it to a secure scientific repository such as the [Open Science Framework](https://osf.io/), and any scientist who downloads and follows this workflow will be able to replicate our analyses in a heartbeat.
-
-[^1]: The `here()` function from the eponymous package allows to specify that the working directory (WD) is the root project directory. This solves the issue of Quarto (.qmd) files automatically setting their current directory as the WD, which is problematic, for instance for those in the `notebooks/` folder.
 
 ## Rendering your notebooks
 

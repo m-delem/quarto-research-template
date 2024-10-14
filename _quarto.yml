@@ -68,13 +68,13 @@ format:
     number-depth: 2
 
   # Word
-  docx: 
-    reference-doc: "utils/docx/custom-reference-doc.docx"
-    toc: false
-    echo: false
-    # extension to add a block with authors in .docx format
-    filters:
-      - authors-block
+  # docx: 
+  #   reference-doc: "utils/docx/custom-reference-doc.docx"
+  #   toc: false
+  #   echo: false
+  #   # extension to add a block with authors in .docx format
+  #   filters:
+  #     - authors-block
 
   # PDF - see https://github.com/quarto-journals/elsevier
   # elsevier-pdf:
