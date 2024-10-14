@@ -8,6 +8,7 @@ title: Notebook Template
 
 library(here)
 source(here("scripts/_setup.R"))
+source(here("scripts/_functions.R"))
 ```
 
 :::: {.content-visible when-format="html"}

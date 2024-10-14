@@ -40,7 +40,7 @@ format:
 
   html:
     embed-resources: true  # self-contained HTML rendering
-    format-links: false     # no links to other formats
+    format-links: false    # no links to other formats
 
     # styling
     theme: 
