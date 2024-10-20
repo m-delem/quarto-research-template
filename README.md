@@ -134,4 +134,4 @@ A main purpose of a Quarto project is to be able to render analysis results easi
 
 ----
 
-> I'm kinda reinventing the wheel with this template because a lot of what I built here is already included in the [Quarto Manuscript](https://quarto.org/docs/manuscripts/) project type. Still, building this template has helped me to understand the ins and outs of many aspects of Quarto, to understand every little detail in my files and folders, and now I'm comfortable with the structure of my projects, however complex. I hope it helps you too! (Thank you for reading this far :)
+> I'm kinda reinventing the wheel with this template because a lot of what I built here is already included in the [Quarto Manuscript](https://quarto.org/docs/manuscripts/) project type. Still, building this template has helped me to understand the ins and outs of many aspects of Quarto, to understand every little detail in my files and folders, and now I'm comfortable with the structure of my projects, however complex. I hope it helps you too! :cherry_blossom:
