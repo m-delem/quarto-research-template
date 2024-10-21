@@ -53,7 +53,7 @@ In the end, you only need to know a few operations for a good workflow:
 
  - Repeat this little routine when you come back to the project.
    
-Then you're good to go! You have everything set for a clean, reproducible, and well-organised project. If we share/submit/publish our results and link this repository (or upload it as a folder), any scientist who downloads and follows this workflow will be able to replicate our analyses in a heartbeat.
+Then you're good to go! You have everything set for a clean, reproducible, and well-organised project. If you share/submit/publish your results and link this repository (or upload it as a folder), any scientist who downloads and follows this workflow will be able to replicate your analyses in a heartbeat.
 
 When your Quarto notebooks are clean, you might also want to **render** them to various formats: simply click the usual "Render" button at the top of your notebooks and they should render to HTML with my default options. Open and tweak the `_quarto.yml` to tailor these options to suit your needs (starting with replacing my name with yours, for instance). See the details of the rendering options further down below.
 
@@ -71,7 +71,7 @@ Some of the structures in this template were inspired by [this research template
     - The third is dedicated to `.rds` files, a file format that can contain R-specific objects such as models or tibbles.
 
 - The `scripts/` folder will contain all raw R scripts. I added by default:
-    - A `_setup.R` script to host the common setup operations shared across scripts. This file should be loaded in all your other scripts and notebooks with `source(here("scripts/_setup.R"))`[^1].
+    - A `_setup.R` script to host the common setup operations shared across scripts. This file should be loaded in all your other scripts and notebooks with `source(here("scripts/_setup.R"))`.
     - `_functions.R` is meant to host your user-defined functions to be used in other scripts. Likewise, you can load it everywhere afterwards with `source(here("scripts/_functions.R"))`
 
 - The `notebooks/` folder will contain Quarto `.qmd` notebooks with both code and text, which can be used either as working tools to record the analytic process for future use, or even as complete reports and manuscripts for the final analyses and publications. A template with essential elements is included.
