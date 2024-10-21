@@ -78,8 +78,6 @@ Some of the structures in this template were inspired by [this research template
 
 - The `bibliography/` folder contains `.bib` files to host references.
 
-- The template comes with a `figures/` folder for visual outputs.
-
 - Rendered notebooks (in HTML, Word or PDF format) are created automatically in the `_output/` folder (unless instructed otherwise).
 
 - The `_extensions/` and `utils/` folders contain utility files for rendering.
