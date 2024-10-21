@@ -11,7 +11,7 @@
 # contains the exact details of the packages you used) in this template, so now 
 # the project only needs to be restored each time you start working. You will
 # be asked to install the packages that I added down below upon running this 
-# script, but you change this to suit your needs.
+# script, but you can change this to suit your needs.
 renv::restore()
 
 
