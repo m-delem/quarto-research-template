@@ -1,24 +1,22 @@
-# My personal Quarto analysis project template (and workflow)
+# Quarto template (and workflow) for reproducible research
 
-This is a custom Quarto template for scientific research that synthesises my current favourite structure and options to use in my analysis projects. 
+This repository contains a custom Quarto project template for reproducible scientific research and data analysis. Some of the structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template). 
 
 ## Quick start guide
 
 ### Install Quarto (if you haven't already) and import the template
 
-First install [Quarto](https://quarto.org/), which is an amazing open-source scientific and technical publishing system. It is very well integrated within [RStudio](https://posit.co/products/open-source/rstudio/), but can also be used seamlessly in [Visual Studio Code](https://code.visualstudio.com/) if you are already accustomed to the latter.
+First install [Quarto](https://quarto.org/), which is an amazing open-source scientific and technical publishing system. It is very well integrated within [RStudio](https://posit.co/products/open-source/rstudio/), but can also be used seamlessly in [Visual Studio Code](https://code.visualstudio.com/) if you are already accustomed to the latter. From now on I'll assume you work on RStudio for convenience. 
 
 To use this template (i.e., copy the folder on your computer), open the terminal (you can find one in a tab next to the console in RStudio), and type:
 
 ```
-quarto use template m-delem/my-quarto-template
+quarto use template m-delem/quarto-research-template
 ```
 
 Then enter `Y` to trust the template, and specify the path of the folder you want to place your project into, e.g. `GitHub/my-project`. By default, the root is `~Users/Your-username/Documents/`.
 
 ### Setup the project
-
-From now on I'll assume you work on RStudio for convenience. 
 
 - Open the `open-this-file-first.RProj`: this will open the project in RStudio and set the current directory as the working directory immediately.
 
@@ -27,7 +25,7 @@ From now on I'll assume you work on RStudio for convenience.
 - Run the whole setup script. I added several packages by default:
     - `pacman` for easy package management
     - `here` to point links to the project working directory
-    - `see` for my favourite ggplot cosmetics
+    - `see` for colour-blind friendly ggplot palettes
     - `report` to report session information (among others)
     - `quarto` for the console Quarto commands
     - `tidyverse` for the modern R ecosystem.
@@ -47,7 +45,7 @@ In the end, you only need to know a few operations for a good workflow:
 
 - Add new packages in the `pacman::p_load()` function call in `scripts/_setup.R` as you work. Care to call `scripts/_setup.R` in all your other scripts with `source(here("scripts/_setup.R"))`. This is already in the `notebooks/_notebooks_template.qmd` for instance.
 
-- At the end of the day, when you're done *and everything is stable*, check your environment with `renv::status()`, and use `renv::snapshot()` to save the state of your packages if you changed some things.
+- At the end of the day, when you're done ***and everything is stable***, check your environment with `renv::status()`, and use `renv::snapshot()` to save the state of your packages if you changed some things.
 
 > - If you use version control (and I suspect you do since you're here), commit your final modifications.
 
@@ -55,13 +53,11 @@ In the end, you only need to know a few operations for a good workflow:
    
 Then you're good to go! You have everything set for a clean, reproducible, and well-organised project. If you share/submit/publish your results and link this repository (or upload it as a folder), any scientist who downloads and follows this workflow will be able to replicate your analyses in a heartbeat.
 
-When your Quarto notebooks are clean, you might also want to **render** them to various formats: simply click the usual "Render" button at the top of your notebooks and they should render to HTML with my default options. Open and tweak the `_quarto.yml` to tailor these options to suit your needs (starting with replacing my name with yours, for instance). See the details of the rendering options further down below.
+When your Quarto notebooks are clean, you might also want to **render** them to various formats: simply click the usual "Render" button at the top of your notebooks and they should render to HTML with my default options. Open and tweak the `_quarto.yml` to tailor these options to suit your needs (*starting with replacing my name with yours, for instance*). See the details of the rendering options further down below.
 
 ## In-depth description
 
 ### Structure of the project
-
-Some of the structures in this template were inspired by [this research template by Aaron Gullickson](https://github.com/AaronGullickson/research-template). 
 
 - `open-this-file-first.RProj` is the first file to click on to open the project in RStudio.
 
