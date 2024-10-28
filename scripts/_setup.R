@@ -19,7 +19,6 @@ renv::restore()
 
 # pacman allows to check/install/load packages with a single call
 # if (!require("pacman")) install.packages("pacman") # already in renv.lock
-library("pacman")
 
 # packages to load (and install if needed)
 pacman::p_load(
@@ -31,8 +30,9 @@ pacman::p_load(
   tidyverse   # modern R ecosystem
 )
 
-# Global cosmetic theme ---------------------------------------------------
+# Other setups -----------------------------------------------------------
 
+# glocal cosmetic theme
 theme_set(theme_modern(base_size = 14)) # from see in easystats
 
 # setting my favourite palettes as ggplot2 defaults
@@ -44,9 +44,9 @@ options(
 )
 
 
-# Fixing a seed for reproducibility ---------------------------------------
+# Fixing a seed for reproducibility
 set.seed(14051998)
 
 
-# Adding all packages' citations to a .bib --------------------------------
+# Adding all packages' citations to a .bib
 knitr::write_bib(c(.packages()), file = here("bibliography/packages.bib"))
