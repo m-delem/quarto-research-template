@@ -23,8 +23,7 @@ if (!requireNamespace("pacman")) install.packages("pacman")
 # packages to load (and install if needed)
 pacman::p_load(
   here,        # easy file paths
-  sessioninfo, # reporting various info 
-  tidyverse    # modern R ecosystem
+  sessioninfo # reporting various info 
 )
 
 

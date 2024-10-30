@@ -26,7 +26,6 @@ Then enter `Y` to trust the template, and specify the path of the folder you wan
     - `pacman` for easy package management
     - `here` to point links to the project working directory
     - `sessioninfo` to report session information
-    - `tidyverse` for the modern R ecosystem.
  
 - All set! You could start on an R script on the spot, but I'd suggest you create your own copy of the notebook `notebooks/_notebook-template.qmd`, I prepared a minimal structure for a clean reproducible notebook that loads your setup scripts.
 
