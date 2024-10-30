@@ -8,7 +8,6 @@ title: Notebook Template
 
 library(here)
 source(here("scripts/_setup.R"))
-source(here("scripts/_functions.R"))
 ```
 
 :::: {.content-visible when-format="html"}
@@ -21,7 +20,6 @@ source(here("scripts/_functions.R"))
 ::::
 
 Tip: find a consistent and clear naming scheme for your folders, scripts, functions, and variables, and stick to it. This will make your life easier when you need to find something later on. See [this great explanation](https://speakerdeck.com/jennybc/how-to-name-files).
-
 
 
 :::: {.content-visible when-format="html"}
