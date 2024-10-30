@@ -18,35 +18,15 @@ renv::restore()
 # Packages ----------------------------------------------------------------
 
 # pacman allows to check/install/load packages with a single call
-# if (!require("pacman")) install.packages("pacman") # already in renv.lock
+if (!requireNamespace("pacman")) install.packages("pacman")
 
 # packages to load (and install if needed)
 pacman::p_load(
-  here,       # easy file paths
-  see,        # theme_modern and okabeito palette
-  report,     # reporting various info 
-  # Should remain last to avoid conflicts with other packages
-  quarto,     # quarto reports
-  tidyverse   # modern R ecosystem
-)
-
-# Other setups -----------------------------------------------------------
-
-# glocal cosmetic theme
-theme_set(theme_modern(base_size = 14)) # from see in easystats
-
-# setting my favourite palettes as ggplot2 defaults
-options( 
-  ggplot2.discrete.colour   = scale_colour_okabeito,
-  ggplot2.discrete.fill     = scale_fill_okabeito,
-  ggplot2.continuous.colour = scale_colour_viridis_c,
-  ggplot2.continuous.fill   = scale_fill_viridis_c
+  here,        # easy file paths
+  sessioninfo, # reporting various info 
+  tidyverse    # modern R ecosystem
 )
 
 
 # Fixing a seed for reproducibility
-set.seed(14051998)
-
-
-# Adding all packages' citations to a .bib
-knitr::write_bib(c(.packages()), file = here("bibliography/packages.bib"))
+set.seed(123)

@@ -25,9 +25,7 @@ Then enter `Y` to trust the template, and specify the path of the folder you wan
 - Run the whole setup script. I added several packages by default:
     - `pacman` for easy package management
     - `here` to point links to the project working directory
-    - `see` for colour-blind friendly ggplot palettes
-    - `report` to report session information (among others)
-    - `quarto` for the console Quarto commands
+    - `sessioninfo` to report session information
     - `tidyverse` for the modern R ecosystem.
  
 - All set! You could start on an R script on the spot, but I'd suggest you create your own copy of the notebook `notebooks/_notebook-template.qmd`, I prepared a minimal structure for a clean reproducible notebook that loads your setup scripts.
@@ -76,8 +74,6 @@ When your Quarto notebooks are clean, you might also want to **render** them to 
 
 - Rendered notebooks (in HTML, Word or PDF format) are created automatically in the `_output/` folder (unless instructed otherwise).
 
-- The `_extensions/` and `utils/` folders contain utility files for rendering.
-
 - More down below on the `renv/` folder and `renv.lock` file.
 
 > Don't hesitate to create additional directories for important file types, e.g., a main `figures/` folder, a `docs/` folder for external documents (PDF, Word, PPT, etc.), a `materials/` folder for experiement materials, etc. Another related tip: find a consistent and clear naming scheme for your folders, scripts, functions, and variables, and stick to it. This will make your life easier when you need to find something later on.
@@ -96,36 +92,16 @@ A main purpose of a Quarto project is to be able to render analysis results easi
   
 - A basic author information structure with my own info as an example
 
-- A pointer to two bibliography files in the `bibliography/` folder. `references.bib` is usually tied to the Quarto Visual Mode "Insert Citation" command, and `packages.bib` is created by the R function `knitr::write_bib` (already written for you in `_setup.R` to update continuously the package list) and makes it more convenient to cite the packages we use. The bibliography then follows the American Psychological Association norms using the `apa.csl` file.
+- A pointer to two bibliography files in the `bibliography/` folder. `references.bib` is usually tied to the Quarto Visual Mode "Insert Citation" command. The bibliography then follows the American Psychological Association norms using the `apa.csl` file.
 
 - Some execution, table of contents and numbering options
-
-- Some format specific options. By default, Word and PDF formats are commented-out to render only to HTML. You can uncomment them if you want to render to these formats and use the proposed options.
 
 - For the HTML format: 
     - The HTML files rendered are self-contained
     - They are rendered with a dark theme and a light theme as a toggle
-    - A custom CSS (`utils/html/custom.css`) adds a point to the section numbering
     - The Montserrat font is imported from Google Fonts, and set to medium size
     - The figures have the "lightbox" option, which allows to "click-to-expand"
     - The code is folded by default to have a clearer page, but this can be overridden locally
     - A "Code" button is added at the top of the page with options to show/hide all code or see the complete source
     - Code annotations are set on hover
     - The TOC is placed on the right, and expands to one depth level max
-
-- For the Word format (commented-out by default):
-    - The rendering uses a template I designed by hand (in `utils/docx/custom-reference-doc.docx`)
-    - No table of contents
-    - The code is not displayed
-    - The rendering uses the `authors-block` extension to format author info correctly
-
-- For the Elsevier PDF format (commented-out by default):
-    - This format comes from an extension imported from `quarto-journals`, see <https://github.com/quarto-journals/elsevier>
-    - The rendering to this format uses the `elsarticle.cls` and `elsarticle-harv.bst` files
-    - No table of contents
-    - The code is not displayed
-    - A short $\LaTeX$ snippet allows to add a new page after the abstract, TOC, or both. Mind that TOC is deactivated by default in the options.
-
-----
-
-> I'm kinda reinventing the wheel with this template because a lot of what I built here is already included in the [Quarto Manuscript](https://quarto.org/docs/manuscripts/) project type. Still, building this template has helped me to understand the ins and outs of many aspects of Quarto, to understand every little detail in my files and folders, and now I'm comfortable with the structure of my projects, however complex. I hope it helps you too! :cherry_blossom:

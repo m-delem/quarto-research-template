@@ -20,7 +20,7 @@ source(here("scripts/_functions.R"))
 :::
 ::::
 
-Tip: find a consistent and clear naming scheme for your folders, scripts, functions, and variables, and stick to it. This will make your life easier when you need to find something later on.
+Tip: find a consistent and clear naming scheme for your folders, scripts, functions, and variables, and stick to it. This will make your life easier when you need to find something later on. See [this great explanation](https://speakerdeck.com/jennybc/how-to-name-files).
 
 
 
@@ -37,11 +37,7 @@ Tip: find a consistent and clear naming scheme for your folders, scripts, functi
 #| label: session-information
 #| echo: false
 
-cat("═════════════════════════════════════════════════════════════════════════")
-report_system(session = sessionInfo())
-cat("Packages used:")
-report_packages(session = sessionInfo())
-cat("═════════════════════════════════════════════════════════════════════════")
+sessioninfo::session_info()
 ```
 :::
 ::::
