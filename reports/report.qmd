@@ -1,0 +1,192 @@
+---
+title: Report Template
+---
+
+<!--
+The workflow starts by loading all the packages and all the necessary functions,
+that should be externalized in the R/ folder. The prior work to design all the
+functions should be done in the _lab-notebooks/. This is the final step to
+create a report (potentially parametrised) from the functions we created.
+
+Given that we will display the functions' code later in the rendered report "as 
+if" they were run there, we will not display this "sourcing" code. It is meant 
+to fetch the functions to run the pipeline without having to parse the whole
+notebook.
+-->
+
+```{r}
+#| label: setup
+#| include: false
+
+if (!requireNamespace("pacman")) install.packages("pacman")
+
+pacman::p_load(
+  here,
+  ggplot2,
+  sessioninfo
+  )
+
+source_all <- function(path = "/", pattern = NULL) {
+  files <- list.files(path, pattern, full.names = TRUE, recursive = TRUE)
+  # the assignment to "silence" prevents the output from being printed
+  silence <- lapply(files, function(x) source(file = x, verbose = FALSE))
+}
+
+source_all(path = "R", pattern = "_iris")
+```
+
+::: {.callout-note collapse="true"}
+# Packages
+<!-- Displaying the setup for those interested -->
+```{r}
+#| label: display-setup
+#| code-fold: false
+#| eval: false
+
+# pacman allows to check/install/load packages with a single call
+if (!requireNamespace("pacman")) install.packages("pacman")
+
+pacman::p_load(
+  here,
+  ggplot2,
+  sessioninfo
+  )
+```
+:::
+
+<!--
+We run the pipeline we built with our functions. This will create all the 
+relevant object right at the start, but will not be displayed in the report
+until we call them.
+-->
+
+```{r}
+#| label: pipeline
+#| include: false
+
+df    <- import_iris() |> tidy_iris()
+plot  <- plot_iris(df)
+model <- model_iris(df)
+```
+
+<!--
+Now we write our report. By using the "add-code-files" Quarto extension, we can
+include the code for each function from the R source files without cluttering
+this notebook. We can then display the results by fetching the objects created
+by our pipeline.
+
+All of this may look heavy at first, but I believe this workflow will be very 
+effective when the project grows in complexity.
+-->
+
+# Import data
+
+We import the Iris dataset and tidy it up.
+
+```{r}
+#| label: add-import
+#| add-from: ../R/01_import/import_iris.R
+#| code-summary: Import
+
+#
+```
+
+```{r}
+#| label: add-tidy
+#| add-from: ../R/02_tidy/tidy_iris.R
+#| code-summary: Tidy
+
+#
+```
+
+```{r}
+#| label: fake-code-tidy
+#| code-fold: false
+#| eval: false
+
+df <- import_iris() |> tidy_iris()
+head(df)
+```
+
+```{r}
+#| label: tidy-iris
+#| echo: false
+
+head(df)
+```
+
+# Visualisation
+
+We plot the Iris dataset.
+
+```{r}
+#| label: add-plot
+#| add-from: ../R/03_plot/plot_iris.R
+#| code-summary: Plot
+
+#
+```
+
+```{r}
+#| label: fake-code-plot
+#| code-fold: false
+#| eval: false
+
+plot <- plot_iris(df)
+print(plot)
+```
+
+```{r}
+#| label: fig-plot-iris
+#| fig-cap: Plot of the Iris dataset
+#| fig-width: 7
+#| fig-height: 5
+#| echo: false
+
+print(plot)
+```
+
+# Model
+
+We model the Iris dataset.
+
+```{r}
+#| label: add-model
+#| add-from: ../R/04_model/model_iris.R
+#| code-summary: Model
+
+#
+```
+
+```{r}
+#| label: fake-code-model
+#| code-fold: false
+#| eval: false
+
+model <- model_iris(df)
+summary(model)
+```
+
+```{r}
+#| label: model-iris
+#| echo: false
+
+summary(model)
+```
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+::: {.callout-note collapse="true"}
+# Session information
+
+```{r}
+#| label: session-information
+#| echo: false
+
+sessioninfo::session_info()
+```
+:::

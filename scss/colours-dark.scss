@@ -1,0 +1,12 @@
+/*-- scss:defaults --*/
+
+$nato-blue:  #132e45;
+$rapture:    #134543;
+$blackberry: #45132e;
+$git:        #7b52c6;
+$viridis:    #280032;
+
+// body and links
+$body-bg:    shift-color($nato-blue,-25%);
+$body-color: shift-color($rapture,   95%);
+$colour-pop: shift-light($rapture,   60%);

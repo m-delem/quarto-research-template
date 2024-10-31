@@ -1,0 +1,377 @@
+/*-- scss:defaults --*/
+
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+
+// font styles
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$montserrat: $font-family-sans-serif;
+$nunito: 'Nunito', sans-serif;
+$weight-body: 400;
+
+$colour-mute4: body-mix(45%);
+$colour-mute8: body-mix(85%);
+$colour-mute9: body-mix(95%);
+// colour-pop is in to the light/dark files
+
+// links
+$link-color:            $colour-pop;
+$link-shade-percentage: 15%;
+$link-hover-color:      shift-color($link-color, $link-shade-percentage);
+
+// navbar and footer
+$navbar-bg: $body-bg;
+$navbar-fg: $colour-mute4; 
+$navbar-hl: $colour-pop; 
+
+$footer-bg: $navbar-bg; 
+$footer-fg: $navbar-fg; 
+
+// toc
+$toc-color:           $colour-pop; // active text
+$toc-active-border:   $colour-pop; // active border
+$toc-inactive-border: $colour-mute8; // inactive border
+// had to go in the rules to change the title and inactive text
+
+// code
+$code-block-bg: body-mix(95%);
+$callout-icon-scale: 25%;
+
+/*-- scss:functions --*/
+@function body-mix($weight) {
+    @return mix($body-bg, $body-color, $weight);
+}
+
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $weight) {
+  @return mix(black, $color, $weight);
+}
+
+// Tint the color if the weight is positive, else shade it
+@function shift-color($color, $weight) {
+  @return if($weight > 0, tint($color, $weight), shade($color, -$weight));
+}
+// Lighten the color if the weight is positive, else tint it
+@function shift-light($color, $weight) {
+  @return if($weight > 0, lighten($color, $weight), darken($color, -$weight));
+}
+
+// Colour mixes for callouts
+@function callout-mix($colour, $weight: 25%) {
+  @return mix($colour, $body-bg, $weight);
+}
+
+/*-- scss:rules --*/
+
+// headers
+h1, h2, h3, h4, h5, h6 { 
+  font-family:    $montserrat; 
+  color: body-mix(10%);
+  letter-spacing: 1px;
+  font-weight:    $weight-body + 200;
+}
+#toc-title {
+  color:  $navbar-fg;
+}
+h2.anchored {
+  border-bottom-color: $colour-mute8;
+}
+.header-section-number {
+  color: $colour-mute4;
+}
+
+// article header title blocs
+#title-block-header {
+  background-color: $colour-mute9;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 1.7em;
+  border-bottom: 1px solid $colour-mute8;
+}
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  color: body-mix(25%);
+  //font-style: italic;
+  font-weight: $weight-body + 100;
+}
+#title-block-header.quarto-title-block.default .keywords, 
+#title-block-header.quarto-title-block.default .description, 
+#title-block-header.quarto-title-block.default .abstract {
+  color: $colour-mute4;
+  font-weight: $weight-body;
+
+}
+
+.quarto-title-banner.page-columns.page-full {
+  background-color: $colour-mute9;
+  padding-top: 1.7em;
+  padding-bottom: 0px;
+}
+
+// main text
+body {
+  font-family: $montserrat;
+  font-weight: $weight-body;
+}
+blockquote, .blockquote {
+  color: $colour-mute4;
+  border-left-width: 1px;
+  border-color: $colour-mute8;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0.75em;
+}
+.column-margin figcaption, 
+.margin-caption, 
+div.aside, 
+aside, 
+.column-margin {
+  color: $colour-mute4;
+}
+
+// hover text
+.tippy-content {
+  background-color: $colour-mute9;
+  border: 1px solid $colour-mute8;
+  border-radius: 7px; 
+}
+
+// tables and captions
+.table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  background-color: $body-bg;
+  border-color: $colour-mute8;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+}
+th {
+  font-weight: $weight-body + 150;
+}
+.panel-caption,
+.figure-caption,
+.subfigure-caption,
+.table-caption,
+figcaption,
+caption {
+  font-weight: $weight-body - 100;
+  color: $colour-mute4;
+}
+
+// navigation
+.navbar {
+  border-bottom: 1px solid $colour-mute8;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.1);
+}
+.navbar .dropdown-item {
+  color: $colour-mute4;
+  background-color: $colour-mute9;
+}
+.navbar-nav {
+
+  .show>.nav-link,
+  .active>.nav-link,
+  .nav-link.active {
+    color: $colour-pop;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: $colour-pop;
+  }
+
+  .nav-link {
+    color: $colour-mute4;
+  }
+
+  a.nav-link,
+  a.nav-link:after,
+  a.nav-link:before {
+    transition: all .5s;
+  }
+
+  a.nav-link {
+    position: relative;
+  }
+  
+  a.nav-link:after {
+    position: absolute;
+    border-top: .1em solid body-mix(90%);
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+  }
+  
+  a.nav-link:hover:after {
+    width: 80%;
+  }
+
+  a.nav-link:hover:after,
+  a.nav-link:after {
+    border-top: .1em solid $colour-pop;
+  }
+
+  .show>.nav-link,
+  .active>.nav-link,
+  .nav-link.active {
+    font-weight: $weight-body + 150;
+  }
+}
+
+.dropdown-menu {
+  background-color: $colour-mute9;
+  border-color: $colour-mute8;
+}
+.dropdown-item:hover {
+  background-color: $colour-mute8;
+  color: $colour-pop;
+}
+
+// toc again
+.sidebar nav[role="doc-toc"] {  // inactive text
+  color:  $colour-mute4;
+}
+.quarto-sidebar-toggle { 
+  background-color: $colour-mute9;
+  border-color:     $colour-mute8;
+}
+
+#quarto-content .quarto-sidebar-toggle-title {
+  color: $colour-mute4;
+  border-color: $colour-mute8;
+}
+
+// code blocks
+code.sourceCode {
+  background-color: $colour-mute9;
+  border: 1px solid $colour-mute8;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+div.sourceCode, div.sourceCode pre.sourceCode {
+  padding: 0em 0em 0em 0em;
+}
+// code inline
+p code:not(.sourceCode),
+li code:not(.sourceCode),
+td code:not(.sourceCode) {
+  background-color: mix($body-bg, color-contrast($git), 35%);
+  border: 1px solid mix($body-bg, color-contrast($git), 20%);
+  border-radius: 5px;
+  padding:.1em .3em .1em .3em;
+}
+// code-folding text
+details > summary {
+  color: $colour-mute4;
+  transition: all .3s;
+}
+details>summary:hover {
+  color: $colour-pop;
+}
+
+// cards in grid listings
+.card {
+    background-color: $colour-mute9;
+    border-color:     $colour-mute8;
+}
+.quarto-grid-item .card-text {
+    font-weight: $weight-body - 100;
+    color: $colour-mute4;
+}
+.listing-reading-time {
+    font-weight: $weight-body - 150 !important;
+}
+
+// about page
+div.quarto-about-trestles .about-contents {
+  border-color: $colour-mute8;
+}
+.quarto-grid-item.card-left {
+  transition: all .1s ease
+}
+.quarto-grid-item.card-left:hover {
+  transform: scale(1.01);
+  background-color: body-mix(93%);
+}
+.about-image {
+  width: 18em !important;
+  height: 18em !important;
+}
+
+// callouts
+
+// common for every callout
+.callout.callout-style-simple {
+  padding:.4em .7em;
+  border-left:   3px solid;
+  border-right:  1px solid  $colour-mute9;
+  border-top:    1px solid  $colour-mute9;
+  border-bottom: 1px solid  $colour-mute9
+}
+.callout.callout-style-default {
+  border-left:   3px solid;
+  border-right:  1px solid  $colour-mute9;
+  border-top:    1px solid  $colour-mute9;
+  border-bottom: 1px solid  $colour-mute9
+}
+.callout.callout-style-default:not(.no-icon) div.callout-title-container {
+  color: $body-color;
+  font-weight: $weight-body + 200;
+  transition: all .3s;
+}
+.callout.callout-style-default:not(.no-icon) div.callout-title-container:hover {
+  color: $colour-pop;
+}
+
+// note
+div.callout-note.callout {
+  border-left-color: $note
+}
+div.callout-note.callout-style-default>.callout-header {
+  background-color: callout-mix($note);
+}
+
+// tip
+div.callout-tip.callout {
+  border-left-color: $tip
+}
+div.callout-tip.callout-style-default>.callout-header {
+  background-color: callout-mix($tip);
+}
+
+// warning
+div.callout-warning.callout {
+  border-left-color: $warning
+}
+div.callout-warning.callout-style-default>.callout-header {
+  background-color: callout-mix($warning);
+}
+
+// caution
+div.callout-caution.callout {
+  border-left-color: $caution
+}
+div.callout-caution.callout-style-default>.callout-header {
+  background-color: callout-mix($caution);
+}
+
+// important
+div.callout-important.callout {
+  border-left-color: $important
+}
+div.callout-important.callout-style-default>.callout-header {
+  background-color: callout-mix($important);
+}

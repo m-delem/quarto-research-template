@@ -1,0 +1,77 @@
+---
+include: false
+---
+
+This lab notebook is the main place to design the code, try things iteratively 
+and not worry too much about the final output. It will not be rendered upon 
+running `quarto render` in the terminal, because the folder name contains an
+underscore.
+
+It shouldn't be rendered by hand either. It could be included silently in a 
+report with {{< include ../_lab-notebooks/lab-notebook >}} to fetch its
+chunks with the `#| ref-label:` option, if there is no other option (the default
+workflow should display code directly from the R source files).
+
+*Workflow:*
+- Write code and explore the data in the lab notebook.
+- When something is functional, reproducible and ready to be included in the
+  main pipeline, refactor it into a function.
+- Transfer said function inside a standalone R script in the R/ folder.
+- These functions will be run successively in the final analysis and reports.
+
+```{r}
+#| label: setup
+
+if (!requireNamespace("pacman")) install.packages("pacman")
+
+pacman::p_load(
+  here, 
+  ggplot2
+  )
+```
+
+Here is how the example functions in the R/ folder could have been initially 
+tested here:
+
+```{r}
+#| label: import-iris
+
+df <- iris
+```
+
+```{r}
+#| label: tidy-iris
+
+colnames(df) <- tolower(colnames(df))
+
+head(df)
+```
+
+```{r}
+#| label: plot-iris
+
+p <- 
+  df |> 
+  ggplot(aes(
+    x = sepal.length, 
+    y = sepal.width, 
+    color = species)
+  ) +
+  geom_point()
+
+print(p)
+```
+
+```{r}
+#| label: model-iris
+
+model <- lm(
+  sepal.width ~ sepal.length + petal.length + petal.width,
+  data = df
+)
+
+summary(model)
+```
+
+As each step becomes functional and ready to be run a thousand times, we wrap it
+in a function and externalise it.

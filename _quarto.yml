@@ -28,35 +28,32 @@ execute:
   error: false
   message: false
 
-toc: true
-number-sections: true
-crossref:
-  chapters: true
+# crossref:
+#   chapters: true # for figures numbered by chapter
 
-# --- Format-specific options ---
 format:
-
   html:
-    embed-resources: true  # self-contained HTML rendering
-
-    # styling
+    embed-resources: true
     theme: 
-      dark: darkly
-      light: flatly
-    # importing Montserrat font
-    header-includes: |
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    mainfont: Montserrat
-    fontsize: "medium"
-    
-    # interactive features
-    lightbox: true          # clickable figures
-    code-fold: true         # code folding for clarity
-    code-tools: true        # hide or show all code
-    code-annotations: hover # show code annotations on hover
+      dark:
+        - scss/custom-theme.scss
+        - scss/default-vars.scss
+        - scss/colours-dark.scss
+      light:
+        - scss/custom-theme.scss
+        - scss/default-vars.scss
+        - scss/colours-light.scss
+    highlight-style: github
+    lightbox: true          
+    code-fold: true         
+    code-tools: true        
+    code-annotations: hover 
+    title-block-banner: true
+    toc: true
     toc-location: right
     toc-depth: 2
     toc-expand: 1
+    number-sections: true
     number-depth: 2
+    filters:
+      - add-code-files
