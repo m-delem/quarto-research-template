@@ -187,6 +187,6 @@ summary(model)
 #| label: session-information
 #| echo: false
 
-sessioninfo::session_info()
+sessioninfo::session_info(pkgs = "attached")
 ```
 :::
