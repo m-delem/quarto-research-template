@@ -5,7 +5,7 @@ title: Report Template
 <!--
 The workflow starts by loading all the packages and all the necessary functions,
 that should be externalized in the R/ folder. The prior work to design all the
-functions should be done in the _lab-notebooks/. This is the final step to
+functions should be done in the lab notebook(s). This is the final step to
 create a report (potentially parametrised) from the functions we created.
 
 Given that we will display the functions' code later in the rendered report "as 
@@ -26,12 +26,7 @@ pacman::p_load(
   sessioninfo
   )
 
-source_all <- function(path = "/", pattern = NULL) {
-  files <- list.files(path, pattern, full.names = TRUE, recursive = TRUE)
-  # the assignment to "silence" prevents the output from being printed
-  silence <- lapply(files, function(x) source(file = x, verbose = FALSE))
-}
-
+source(here("R/source-all.R"))
 source_all(path = "R", pattern = "_iris")
 ```
 
