@@ -317,15 +317,15 @@ div.quarto-about-trestles .about-contents {
 .callout.callout-style-simple {
   padding:.4em .7em;
   border-left:   3px solid;
-  border-right:  1px solid  $colour-mute9;
-  border-top:    1px solid  $colour-mute9;
-  border-bottom: 1px solid  $colour-mute9
+  border-right:  1px solid  $colour-mute8;
+  border-top:    1px solid  $colour-mute8;
+  border-bottom: 1px solid  $colour-mute8
 }
 .callout.callout-style-default {
   border-left:   3px solid;
-  border-right:  1px solid  $colour-mute9;
-  border-top:    1px solid  $colour-mute9;
-  border-bottom: 1px solid  $colour-mute9
+  border-right:  1px solid  $colour-mute8;
+  border-top:    1px solid  $colour-mute8;
+  border-bottom: 1px solid  $colour-mute8
 }
 .callout.callout-style-default:not(.no-icon) div.callout-title-container {
   color: $body-color;
@@ -374,4 +374,22 @@ div.callout-important.callout {
 }
 div.callout-important.callout-style-default>.callout-header {
   background-color: callout-mix($important);
+}
+
+
+// panel tabsets
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: $body-color;
+	background-color: callout-mix($note);
+	border-color: $colour-mute8;
+}
+.nav-tabs {
+  border-color: $colour-mute8;
+}
+.tab-content {
+	border-color: $colour-mute8;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  color: $body-color;
+	border-color: $colour-mute8;
 }

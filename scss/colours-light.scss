@@ -7,6 +7,7 @@ $git:        #7b52c6;
 $viridis:    #280032;
 
 // body and links
-$body-bg:    shift-color($nato-blue, 95%);
+$body-bg:    white;
+// $body-bg: shift-color($nato-blue, 95%);
 $body-color: shift-color($rapture,    0%);
 $colour-pop: shift-color($viridis,   45%);

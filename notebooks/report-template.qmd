@@ -51,7 +51,7 @@ pacman::p_load(
 
 <!--
 We run the pipeline we built with our functions. This will create all the 
-relevant object right at the start, but will not be displayed in the report
+relevant object right at the start, but they will not be displayed in the report
 until we call them.
 -->
 
