@@ -22,12 +22,13 @@ if (!requireNamespace("pacman")) install.packages("pacman")
 
 pacman::p_load(
   here,
+  fs,
   ggplot2,
+  purrr,
   sessioninfo
   )
 
-source(here("R/source-all.R"))
-source_all(path = "R", pattern = "_iris")
+dir_ls(here("R"), regexp = "_iris.R", recurse = TRUE) |> walk(source)
 ```
 
 ::: {.callout-note collapse="true"}
