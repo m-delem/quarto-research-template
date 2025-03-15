@@ -5,13 +5,8 @@ include: false
 --------------------------------------------------------------------------------
 The lab notebook is the main place to design the code, try things iteratively 
 and not worry too much about the final output. It will not be rendered upon 
-running `quarto render` in the terminal, because the file name contains an
+running `quarto render` in the terminal, because the file name begins with an
 underscore.
-
-It shouldn't be rendered by hand either. It could be included silently in a 
-report with {{< include ../notebooks/_lab-notes.qmd >}} to fetch its
-chunks with the `#| ref-label:` option, if there is no other option (the default
-workflow should display code directly from the R source files).
 
 *Workflow:*
 - Write code and explore the data in the lab notebook.
