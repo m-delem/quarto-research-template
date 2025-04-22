@@ -1,4 +1,5 @@
 ---
+date: dont-forget-to-date-your-notebook
 include: false
 ---
 
@@ -19,56 +20,6 @@ underscore.
 ```{r}
 #| label: setup
 
-if (!requireNamespace("pacman")) install.packages("pacman")
-
-pacman::p_load(
-  here, 
-  ggplot2
-  )
+# e.g.
+# pacman::p_load(dplyr, ggplot2)
 ```
-
-Here is how the example functions in the R/ folder could have been initially 
-tested here:
-
-```{r}
-#| label: import-iris
-
-df <- iris
-```
-
-```{r}
-#| label: tidy-iris
-
-colnames(df) <- tolower(colnames(df))
-
-head(df)
-```
-
-```{r}
-#| label: plot-iris
-
-p <- 
-  df |> 
-  ggplot(aes(
-    x = sepal.length, 
-    y = sepal.width, 
-    color = species)
-  ) +
-  geom_point()
-
-print(p)
-```
-
-```{r}
-#| label: model-iris
-
-model <- lm(
-  sepal.width ~ sepal.length + petal.length + petal.width,
-  data = df
-)
-
-summary(model)
-```
-
-As each step becomes functional and ready to be run a thousand times, we wrap it
-in a function and externalise it.

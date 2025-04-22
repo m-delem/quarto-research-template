@@ -1,5 +1,6 @@
 source("renv/activate.R")
 
+# Commands to run on RStudio project opening
 setHook(
   hookName = "rstudio.sessionInit",
   value = function(newSession) {
@@ -18,43 +19,26 @@ setHook(
 
 .First <- function() {
   if (interactive()) {
-    cat("\014")
     suppressMessages(suppressWarnings({
-      if (!requireNamespace("pacman")) install.packages("pacman")
-      pacman::p_load(crayon, glue)
+      if (!renv::status()$synchronized) renv::restore(prompt = FALSE)
+      cat("\014")
     }))
     colours <- sample(c("green", "blue", "yellow", "cyan", "magenta"), 2)
     anew <- sample(c(
-      "The rebirth of R.", 
       "Let us cook.     ",
       "Born anew.       ",
       "A new beginning. ",
-      "Again, and again.",
       "Fresh and clean. ",
       "Fresh, so fresh. "
     ), 1)
-    sup <- sample(c(
-      "All good?",
-      "Doing well?",
-      "How's it going?",
-      "Doing fine?",
-      "Doing good?",
-      "Good stuff?",
-      "Any news?",
-      "Any issues?",
-      "Found anything?"
-    ), 1)
     welcome_message <- paste0(
       "{", colours[1],
-      " |-------------------------------------|\n",
-      " | Here we go again...",
-      # "{", colours[3], " \\o/}",
+      " |--------------------------------|\n",
+      " | Here we go... ",
       "{", colours[2], " ", anew, "}|\n",
-      " |-------------------------------------|\n",
-      " |->} ", "{", colours[2], " What's up `renv`? ", sup, "}\n"
+      " |--------------------------------|}\n"
     )
-    print(glue_col(welcome_message, .literal = TRUE))
-    renv::status()
+    print(glue::glue_col(welcome_message, .literal = TRUE))
   }
 }
 
@@ -63,7 +47,7 @@ setHook(
     cat("\014")
     rstudioapi::executeCommand("closeAllSourceDocs")
     colours <- sample(c("green", "blue", "yellow", "cyan", "magenta"), 2)
-    print(glue_col(
+    print(glue::glue_col(
       "\n\n",
       "{red ",
       "|---------------------------------------|\n",
