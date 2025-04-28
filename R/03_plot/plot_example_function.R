@@ -1,3 +1,9 @@
+#' Plot Example Function
+#'
+#' @param df A data frame containing the iris dataset 
+#'
+#' @returns A ggplot object
+#' 
 plot_iris <- function(df) {
   p <- 
     df |> 
