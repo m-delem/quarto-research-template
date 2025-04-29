@@ -9,16 +9,19 @@ source("renv/activate.R")
         renv::restore(prompt = FALSE)
         cat("\014")
         print(glue::glue_col(
-          "{", colours[1], " |-> {", colours[2], 
-          " Some packages recorded in the lockfile were not}\n",
-          "|}   {", colours[2], " synchronised and have been restored.}\n"
-          ))
+          "{", colours[1], " |-> ",
+          "{", colours[2], " Some packages recorded in the lockfile were }\n",
+          "|   {", colours[2], " not synchronised and have been restored.}\n",
+          "|   {", colours[2], " Run `{red renv::status()}` to see if there ",
+          "are any}\n",
+          "|   {", colours[2], " other issues.}}\n"
+        ))
       } else {
         cat("\014")
         print(glue::glue_col(
           "{", colours[1], " |->} {", colours[2], 
           " All packages are synchronised with the lockfile.}\n"
-          ))
+        ))
       }
     }))
     
@@ -38,6 +41,7 @@ source("renv/activate.R")
     print(glue::glue_col(welcome_message, .literal = TRUE))
   }
 }
+
 
 .Last <- function() {
   if (interactive()) {
