@@ -29,7 +29,7 @@ here::here("R") |> fs::dir_ls(recurse = TRUE) |> purrr::walk(source)
 #| label: session-information
 #| echo: false
 
-sessioninfo::session_info(pkgs = "attached")
+sessioninfo::session_info() |> suppressMessages() |> suppressWarnings()
 ```
 :::
 
