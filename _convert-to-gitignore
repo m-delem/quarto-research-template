@@ -1,7 +1,8 @@
 # this is a "backup" of the files to ignore because the .gitignore is not 
 # cloned with the template. If you use version control, add this to the 
 # .gitignore file in the root of the project to ignore the files listed here, 
-# then delete this .txt file.
+# then delete this file.
+
 .Rproj.user
 .Rhistory
 .RData

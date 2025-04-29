@@ -1,3 +1,7 @@
+# Hidden files are not cloned with the template, so this file contains a copy
+# of my usual .Rprofile setup. Copy the code here in a new .Rprofile file to 
+# use this startup code.
+
 source("renv/activate.R")
 
 .First <- function() {
