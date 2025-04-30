@@ -17,10 +17,6 @@ author:
 
 date-modified: last-modified
 
-bibliography:
-  - "bibliography/references.bib" 
-csl: "bibliography/apa.csl"
-
 execute:
   freeze: false
   warning: false
@@ -54,5 +50,3 @@ format:
     toc-expand: 1
     number-sections: true
     number-depth: 2
-    filters:
-      - add-code-files
