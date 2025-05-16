@@ -1,4 +1,7 @@
 tryCatch({
+  # If renv is not installed, install it first
+  if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+  # Try to activate the renv environment
   source("renv/activate.R") |> suppressMessages() |> suppressWarnings()
 },
 error = function(e) {
